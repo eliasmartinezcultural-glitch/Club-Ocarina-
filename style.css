@@ -49,3 +49,11 @@ footer{text-align:center;color:var(--muted);padding:34px 20px 48px;font-size:.78
 .footer-lock{display:inline-block;margin-bottom:10px;padding:5px 9px;border-radius:999px;background:#e7eee9;color:var(--green);font-size:.65rem;font-weight:900;letter-spacing:.1em}.footer-lock+strong{display:block}footer small{display:block;margin-top:9px;color:#8a857c}
 @media(max-width:850px){.territory-band{grid-template-columns:1fr 1fr}.territory-copy{grid-column:1/-1;min-height:155px}.local-story{grid-template-columns:1fr}.story-photo{min-height:260px}}
 @media(max-width:560px){.territory-band{margin-left:10px;margin-right:10px;border-radius:20px}.territory-image{min-height:125px}.territory-copy{padding:20px}.territory-copy strong{font-size:1.3rem}.local-story{border-radius:19px}.story-copy{padding:23px}.story-photo{min-height:220px}}
+
+/* AUDITORÍA DE EXPERIENCIA · V1 */
+.hero-route{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.hero-route span{padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:#faf7f0;color:var(--muted);font-size:.72rem;font-weight:800}.hero-route b{color:var(--blue);margin-right:4px}
+.return-note{display:inline-block;padding:6px 9px;border-radius:999px;background:#ffffff14;color:#d7e0e1;font-size:.66rem;font-weight:800;letter-spacing:.08em}
+.member-next{margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:16px;background:#faf7f0;display:grid;gap:8px}.member-next strong{font-family:Georgia,serif;font-weight:500;font-size:1.05rem}.member-next .ghost{justify-self:start;padding:8px 11px;font-size:.8rem}
+.ally-fast{margin-bottom:12px;border-radius:26px;padding:26px;background:var(--ink);color:#fff;display:flex;justify-content:space-between;gap:20px;align-items:end;box-shadow:var(--shadow)}.ally-fast .eyebrow{color:#cbdce2}.ally-fast h2{margin-top:6px}.ally-fast p{color:#c7d0d1;margin-bottom:0}.fast-steps{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}.fast-steps span{padding:8px 10px;border:1px solid #ffffff20;border-radius:999px;color:#dce4e6;font-size:.68rem;font-weight:900}
+#ally .validator{max-width:none}.validator label{font-weight:850;font-size:.82rem;color:var(--muted)}
+@media(max-width:700px){.ally-fast{display:block}.fast-steps{justify-content:flex-start;margin-top:18px}}
