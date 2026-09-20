@@ -1,1 +1,114 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Club Ocarina</title><meta name="description" content="Comunidad local de beneficios, servicios y oportunidades."><link rel="stylesheet" href="style.css"></head><body><header><div><small>CLUB OCARINA · SAN PATRICIO DEL CHAÑAR</small><h1>Una comunidad local para aprovechar.</h1><p>Beneficios, servicios y oportunidades. Fácil de usar, con o sin QR.</p></div><b>V1 · BASE</b></header><main><nav><button class="active" data-view="member">Socio</button><button data-view="ally">Aliado</button><button data-view="admin">Lina</button></nav><section id="member" class="view active"><article class="hero"><div><small>MEMBRESÍA</small><strong>$5.000 / mes</strong><p>Mercado Pago como vía principal · efectivo también disponible.</p></div><span class="ok">● ACTIVO</span></article><div class="grid"><article class="card"><div class="row"><b>Credencial de socio</b><small>SOCIO 0027</small></div><h2>María Ejemplo</h2><p class="muted">Válida hasta 20/10/2026 · 48 h de gracia</p><div class="qr">QR<br><small>0027</small></div><p class="muted">También podés identificarte con <b>nombre + número de socio</b>.</p></article><article class="card"><div class="row"><b>Mis beneficios</b><small>MES ACTUAL</small></div><div class="benefit"><b>Market Studio</b><span>10% OFF · hasta 10 planchas de stickers</span><i>Disponible</i></div><div class="benefit"><b>Estudio Jurídico RH</b><span>1 orientación de 20 min</span><i>Disponible</i></div><div class="benefit"><b>Kiri Fotografía</b><span>3 fotos profesionales · se pueden usar juntas</span><i>3 disponibles</i></div><div class="benefit"><b>Ocarina Manager</b><span>1 charla individual o para equipo</span><i>Disponible</i></div></article></div><div class="notice">No necesitás smartphone ni QR para pertenecer al Club.</div></section><section id="ally" class="view"><h2>Validación del aliado</h2><article class="card"><label>Número de socio</label><div class="row"><input id="memberInput" value="0027"><button id="validate">Validar</button></div><div id="result" class="result"><b>🟢 SOCIO ACTIVO</b><span>María Ejemplo · socio 0027</span><button id="use">Utilizar beneficio</button></div></article><div class="grid"><article class="card"><small>BENEFICIO ACTUAL</small><h2>Kiri Fotografía</h2><p>3 fotografías profesionales por mes. Las tres pueden utilizarse juntas.</p></article><article class="card"><small>REGLA</small><h2>Sin acumulación</h2><p>Lo no utilizado dentro del período no pasa al mes siguiente.</p></article></div></section><section id="admin" class="view"><h2>Hoy, Lina</h2><div class="stats"><div><b>27</b><span>Activos</span></div><div><b>3</b><span>En gracia</span></div><div><b>2</b><span>Pagos para registrar</span></div><div><b>5</b><span>Usos este mes</span></div></div><div class="grid"><article class="card"><small>ACCIONES</small><button>+ Registrar socio</button><button>$ Registrar pago</button><button>👥 Ver socios</button><button>🤝 Ver aliados</button><button>📊 Resumen mensual</button></article><article class="card"><small>AUTOMATIZACIONES</small><ul><li>Pago → membresía activa</li><li>Vencimiento → 48 h de gracia</li><li>Fin de gracia → baja automática</li><li>Beneficios → consumo mensual controlado</li></ul></article></div></section></main><footer>Club Ocarina · comunidad local de beneficios, experiencias y oportunidades</footer><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111111">
+<title>Club Ocarina · San Patricio del Chañar</title>
+<meta name="description" content="Club Ocarina: comunidad local de beneficios, servicios, experiencias y oportunidades.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <span class="eyebrow">CLUB OCARINA · SAN PATRICIO DEL CHAÑAR</span>
+    <h1>Una comunidad local que te devuelve valor.</h1>
+    <p>Beneficios, servicios, experiencias y oportunidades. Diseñado para funcionar fácil, incluso sin QR.</p>
+  </div>
+  <div class="manager"><span>GERENCIA GENERAL</span><strong>Lina Lucero</strong><small>Operación del Club</small></div>
+</header>
+
+<main>
+  <div class="rolebar" aria-label="Accesos">
+    <button class="role active" data-view="home">Inicio</button>
+    <button class="role" data-view="member">Soy socio</button>
+    <button class="role" data-view="ally">Soy aliado</button>
+    <button class="role" data-view="join">Quiero sumarme</button>
+    <button class="role" data-view="admin">Lina · Gestión</button>
+  </div>
+
+  <section id="home" class="view active">
+    <div class="hero-grid">
+      <article class="hero-card">
+        <span class="eyebrow">EL CLUB LOCAL</span>
+        <h2>Lo importante es pertenecer. Los beneficios lo hacen visible.</h2>
+        <p>Una membresía simple de <strong>$5.000 por mes</strong>, con aliados locales y beneficios concretos.</p>
+        <div class="actions"><button data-go="join" class="primary">Quiero sumarme</button><button data-go="member" class="secondary">Ver mis beneficios</button></div>
+      </article>
+      <article class="value-card">
+        <div><b>4</b><span>beneficios iniciales</span></div>
+        <div><b>$5.000</b><span>por mes</span></div>
+        <div><b>48 h</b><span>de gracia</span></div>
+        <div><b>0</b><span>apps obligatorias</span></div>
+      </article>
+    </div>
+    <div class="section-head"><span class="eyebrow">RED INICIAL</span><h2>Beneficios que se pueden cumplir</h2></div>
+    <div class="benefit-grid" id="homeBenefits"></div>
+    <div class="principle"><b>LEY MUNDIAL DEL CLUB</b><p>Antes de agregar una función, un beneficio o una pantalla, Club Ocarina debe poder responder: <strong>¿esto hace más fácil pertenecer, usar un beneficio o gestionar el Club?</strong> Si no, no entra.</p></div>
+  </section>
+
+  <section id="member" class="view">
+    <div class="section-head"><span class="eyebrow">ÁREA SOCIO</span><h2>Tu Club, sin vueltas.</h2><p>Podés usar credencial digital o simplemente decir tu nombre y número de socio.</p></div>
+    <div class="member-layout">
+      <article class="credential">
+        <div class="credential-top"><span>CLUB OCARINA</span><span id="memberStatus" class="pill good">ACTIVO</span></div>
+        <div class="credential-number">0027</div><h3>María Ejemplo</h3>
+        <p>Válida hasta 20/10/2026</p><div class="fakeqr" aria-label="QR de ejemplo">0027</div>
+        <small>QR opcional · no contiene datos personales.</small>
+      </article>
+      <article class="panel">
+        <div class="panel-head"><div><span class="eyebrow">ESTE MES</span><h3>Mis beneficios</h3></div><span class="pill">4 activos</span></div>
+        <div id="memberBenefits"></div>
+        <div class="notice">No tenés smartphone? No hay problema. El aliado puede validar por nombre + número.</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="ally" class="view">
+    <div class="section-head"><span class="eyebrow">ÁREA ALIADO</span><h2>Validar en segundos.</h2><p>La pantalla del aliado está pensada para el momento real de atención: verificar → mostrar disponibilidad → registrar uso.</p></div>
+    <article class="panel validator">
+      <label for="memberInput">Número de socio</label>
+      <div class="input-row"><input id="memberInput" inputmode="numeric" value="0027" aria-label="Número de socio"><button id="validate" class="primary">Validar</button></div>
+      <div id="validationResult" class="validation good"><b>● SOCIO ACTIVO</b><span>María Ejemplo · socio 0027</span><small>Seleccioná el beneficio que vas a utilizar.</small></div>
+      <div id="allyBenefits" class="ally-benefits"></div>
+    </article>
+    <div class="two-col">
+      <article class="panel"><span class="eyebrow">RED</span><h3>Aliados actuales</h3><ul id="allyList"></ul></article>
+      <article class="panel"><span class="eyebrow">REGLA</span><h3>Consumo transparente</h3><p>Cada uso queda registrado con fecha, socio, aliado y beneficio. No se descuentan usos “a ojo”.</p></article>
+    </div>
+  </section>
+
+  <section id="join" class="view">
+    <div class="section-head"><span class="eyebrow">NUEVO SOCIO</span><h2>Sumarte debería llevar menos de un minuto.</h2><p>En esta versión la solicitud queda preparada para que Lina la registre. No se solicitan datos innecesarios.</p></div>
+    <article class="panel form-panel">
+      <div class="form-grid">
+        <label>Nombre y apellido<input id="joinName" placeholder="Ej. Juan Pérez"></label>
+        <label>WhatsApp (opcional)<input id="joinPhone" inputmode="tel" placeholder="Ej. 299..."></label>
+        <label>Forma de pago<select id="joinPay"><option>Mercado Pago</option><option>Efectivo</option></select></label>
+        <label>¿Cómo conociste el Club?<select id="joinSource"><option>Recomendación</option><option>Aliado</option><option>Redes</option><option>Otro</option></select></label>
+      </div>
+      <button id="joinSubmit" class="primary">Enviar solicitud</button>
+      <div id="joinMessage" class="notice hidden"></div>
+    </article>
+  </section>
+
+  <section id="admin" class="view">
+    <div class="section-head"><span class="eyebrow">GERENCIA GENERAL</span><h2>Hoy, Lina.</h2><p>Una consola operativa, no un laberinto administrativo.</p></div>
+    <div class="admin-grid" id="adminStats"></div>
+    <div class="two-col">
+      <article class="panel"><div class="panel-head"><div><span class="eyebrow">ACCIONES</span><h3>Lo que necesita atención</h3></div></div>
+        <div class="admin-actions"><button data-action="new">+ Registrar socio</button><button data-action="payment">$ Registrar pago</button><button data-action="members">👥 Socios</button><button data-action="allies">🤝 Aliados</button><button data-action="report">↗ Resumen mensual</button></div>
+        <div id="adminMessage" class="notice">Las acciones de esta V2 son simuladas en este sitio público. La próxima capa conectará una base de datos y permisos reales.</div>
+      </article>
+      <article class="panel"><span class="eyebrow">AUTOMATIZACIÓN</span><h3>La máquina hace lo repetitivo</h3>
+        <ol class="rules"><li>Pago registrado → membresía activa.</li><li>Vencimiento → 48 h de gracia.</li><li>Fin de gracia → estado inactivo.</li><li>Mes nuevo → reinicio de consumos no acumulables.</li><li>Uso → registro de auditoría.</li></ol>
+      </article>
+    </div>
+    <article class="panel architecture"><span class="eyebrow">INFRAESTRUCTURA</span><h3>Arquitectura objetivo</h3><div class="flow"><span>Socios</span><i>→</i><span>Membresías</span><i>→</i><span>Beneficios</span><i>→</i><span>Validación</span><i>→</i><span>Usos</span><i>→</i><span>Historial</span></div><p>Frontend móvil + base de datos segura + autenticación por rol + automatizaciones + Mercado Pago + registros de auditoría. Esta página sigue siendo el prototipo público; no se guardan datos reales todavía.</p></article>
+  </section>
+</main>
+
+<footer>Club Ocarina · San Patricio del Chañar · Gerencia General: Lina Lucero · Una comunidad local de beneficios, servicios, experiencias y oportunidades.</footer>
+<script src="app.js"></script>
+</body>
+</html>
