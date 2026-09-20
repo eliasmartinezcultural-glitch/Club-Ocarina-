@@ -87,3 +87,17 @@ Puntos, niveles, rankings, marketplace, chat interno, billetera, gamificación, 
 Esta versión es un prototipo público funcional de flujo. El contador de usos usa almacenamiento local del navegador para demostrar la lógica; **no es todavía una base de datos real y no debe cargarse con datos reales**.
 
 Próxima capa: base de datos + autenticación + permisos + membresías reales + alta de socios + panel de Lina + registro de pagos + motor de beneficios + auditoría.
+
+
+## Ley mundial inviolable — Benchmark 10
+
+Antes de incorporar una función, contrastarla con: Club LA NACION, Costco, Tesco Clubcard, American Express Membership Rewards, Rakuten, Club Personal, Club Movistar, Club Comafi, Club Macro y Nectar.
+
+No se copia código, marca ni contenido propietario. Se adaptan patrones operativos: identidad única, credencial, catálogo, validación, consumo, historial, promociones y automatización. Una función entra solo si supera tres pruebas: útil para el socio + útil para el aliado + fácil para Lina.
+
+## Arquitectura objetivo
+SOCIOS → MEMBRESÍAS → BENEFICIOS → VALIDACIÓN → USOS → HISTORIAL → REPORTES.
+
+Roles: Socio / Aliado / Gerencia General (Lina Lucero) / Administrador técnico. Infraestructura futura: base segura, autenticación por rol, Mercado Pago, automatizaciones, auditoría y backups.
+
+No se construyen todavía puntos, rankings, gamificación, marketplace, chat interno, billetera ni app obligatoria.
