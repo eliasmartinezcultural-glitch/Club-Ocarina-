@@ -1,114 +1,43 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#111111">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111315">
 <title>Club Ocarina · San Patricio del Chañar</title>
-<meta name="description" content="Club Ocarina: comunidad local de beneficios, servicios, experiencias y oportunidades.">
+<meta name="description" content="Comunidad local de beneficios, servicios, experiencias y oportunidades.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site-header">
   <div class="brand">
-    <span class="eyebrow">CLUB OCARINA · SAN PATRICIO DEL CHAÑAR</span>
-    <h1>Una comunidad local que te devuelve valor.</h1>
-    <p>Beneficios, servicios, experiencias y oportunidades. Diseñado para funcionar fácil, incluso sin QR.</p>
+    <div class="brand-mark">O<span>·</span></div>
+    <div><span class="eyebrow">CLUB OCARINA · SAN PATRICIO DEL CHAÑAR</span>
+    <h1>Una comunidad local.<br><em>Un valor que vuelve.</em></h1>
+    <p>Beneficios concretos, aliados cercanos y una membresía simple.</p></div>
   </div>
-  <div class="manager"><span>GERENCIA GENERAL</span><strong>Lina Lucero</strong><small>Operación del Club</small></div>
+  <aside class="manager-card"><span class="eyebrow">GERENCIA GENERAL</span><strong>Lina Lucero</strong><small>Gestión y atención del Club</small><hr><span>Para asociarte o renovar, consultá directamente con Lina.</span></aside>
 </header>
-
 <main>
-  <div class="rolebar" aria-label="Accesos">
-    <button class="role active" data-view="home">Inicio</button>
-    <button class="role" data-view="member">Soy socio</button>
-    <button class="role" data-view="ally">Soy aliado</button>
-    <button class="role" data-view="join">Quiero sumarme</button>
-    <button class="role" data-view="admin">Lina · Gestión</button>
-  </div>
+<nav class="rolebar"><button class="role active" data-view="home">El Club</button><button class="role" data-view="member">Soy socio</button><button class="role" data-view="ally">Soy aliado</button><button class="role" data-view="join">Quiero sumarme</button></nav>
 
-  <section id="home" class="view active">
-    <div class="hero-grid">
-      <article class="hero-card">
-        <span class="eyebrow">EL CLUB LOCAL</span>
-        <h2>Lo importante es pertenecer. Los beneficios lo hacen visible.</h2>
-        <p>Una membresía simple de <strong>$5.000 por mes</strong>, con aliados locales y beneficios concretos.</p>
-        <div class="actions"><button data-go="join" class="primary">Quiero sumarme</button><button data-go="member" class="secondary">Ver mis beneficios</button></div>
-      </article>
-      <article class="value-card">
-        <div><b>4</b><span>beneficios iniciales</span></div>
-        <div><b>$5.000</b><span>por mes</span></div>
-        <div><b>48 h</b><span>de gracia</span></div>
-        <div><b>0</b><span>apps obligatorias</span></div>
-      </article>
-    </div>
-    <div class="section-head"><span class="eyebrow">RED INICIAL</span><h2>Beneficios que se pueden cumplir</h2></div>
-    <div class="benefit-grid" id="homeBenefits"></div>
-    <div class="principle"><b>LEY MUNDIAL DEL CLUB</b><p>Antes de agregar una función, un beneficio o una pantalla, Club Ocarina debe poder responder: <strong>¿esto hace más fácil pertenecer, usar un beneficio o gestionar el Club?</strong> Si no, no entra.</p></div>
-  </section>
+<section id="home" class="view active">
+<div class="hero-grid">
+<article class="hero-card"><span class="eyebrow">PERTENENCIA LOCAL</span><h2>Lo local también puede sentirse <span>premium.</span></h2><p>Club Ocarina reúne beneficios de emprendimientos y profesionales de San Patricio del Chañar en una sola membresía.</p><div class="hero-actions"><button data-go="join" class="primary">Quiero ser socio →</button><button data-go="member" class="ghost">Ya soy socio</button></div><div class="trust-row"><span>● Sin app obligatoria</span><span>● QR opcional</span><span>● Atención humana</span></div></article>
+<aside class="membership-card"><div class="membership-top"><span>MEMBRESÍA</span><span>●</span></div><div class="price">$5.000 <small>/ mes</small></div><p>Una cuota. Beneficios definidos. Reglas claras.</p><div class="membership-rule"><b>48 h</b><span>de gracia luego del vencimiento</span></div><div class="membership-rule"><b>0</b><span>pagos procesados por la web</span></div></aside>
+</div>
+<div class="section-head"><span class="eyebrow">RED INICIAL</span><h2>Beneficios concretos. Aliados cercanos.</h2></div>
+<div class="benefit-grid" id="homeBenefits"></div>
+<div class="how-grid"><article class="dark-panel"><span class="eyebrow light">ASÍ FUNCIONA</span><h3>El sistema hace lo repetitivo.<br><span>Lina decide lo importante.</span></h3><div class="steps"><div><b>01</b><span>Te asociás</span></div><div><b>02</b><span>Consultás a Lina</span></div><div><b>03</b><span>Lina confirma tu pago</span></div><div><b>04</b><span>Usás tus beneficios</span></div></div></article>
+<article class="principle"><span class="eyebrow">REGLA FINANCIERA</span><h3>El dinero no pasa por la página.</h3><p>Club Ocarina no procesa pagos online. Lina informa el medio vigente, recibe o verifica el pago y confirma la membresía.</p><strong class="principle-tag">SOCIO → LINA → CONFIRMACIÓN → MEMBRESÍA</strong></article></div>
+<div class="inclusion"><span class="eyebrow">DISEÑADO PARA CHAÑAR</span><h3>La tecnología acompaña. No excluye.</h3><p>Nombre + número de socio son suficientes. No se exige smartphone, correo ni QR.</p></div>
+</section>
 
-  <section id="member" class="view">
-    <div class="section-head"><span class="eyebrow">ÁREA SOCIO</span><h2>Tu Club, sin vueltas.</h2><p>Podés usar credencial digital o simplemente decir tu nombre y número de socio.</p></div>
-    <div class="member-layout">
-      <article class="credential">
-        <div class="credential-top"><span>CLUB OCARINA</span><span id="memberStatus" class="pill good">ACTIVO</span></div>
-        <div class="credential-number">0027</div><h3>María Ejemplo</h3>
-        <p>Válida hasta 20/10/2026</p><div class="fakeqr" aria-label="QR de ejemplo">0027</div>
-        <small>QR opcional · no contiene datos personales.</small>
-      </article>
-      <article class="panel">
-        <div class="panel-head"><div><span class="eyebrow">ESTE MES</span><h3>Mis beneficios</h3></div><span class="pill">4 activos</span></div>
-        <div id="memberBenefits"></div>
-        <div class="notice">No tenés smartphone? No hay problema. El aliado puede validar por nombre + número.</div>
-      </article>
-    </div>
-  </section>
+<section id="member" class="view"><div class="section-head compact"><span class="eyebrow">ÁREA SOCIO</span><h2>Tu membresía, de un vistazo.</h2><p>La credencial digital es opcional.</p></div><div class="member-layout"><article class="credential"><div class="credential-top"><span>CLUB OCARINA</span><span class="status">ACTIVO</span></div><div class="credential-number">0027</div><h3>María Ejemplo</h3><p>Válida hasta 20 OCT 2026</p><div class="fakeqr">0027</div><small>QR opcional · identificador seguro</small></article><article class="panel"><div class="panel-head"><div><span class="eyebrow">ESTE MES</span><h3>Mis beneficios</h3></div><span class="count-pill">4 activos</span></div><div id="memberBenefits"></div><div class="notice"><strong>¿No tenés smartphone?</strong><br>No hay problema. El aliado puede validar por nombre + número.</div></article></div></section>
 
-  <section id="ally" class="view">
-    <div class="section-head"><span class="eyebrow">ÁREA ALIADO</span><h2>Validar en segundos.</h2><p>La pantalla del aliado está pensada para el momento real de atención: verificar → mostrar disponibilidad → registrar uso.</p></div>
-    <article class="panel validator">
-      <label for="memberInput">Número de socio</label>
-      <div class="input-row"><input id="memberInput" inputmode="numeric" value="0027" aria-label="Número de socio"><button id="validate" class="primary">Validar</button></div>
-      <div id="validationResult" class="validation good"><b>● SOCIO ACTIVO</b><span>María Ejemplo · socio 0027</span><small>Seleccioná el beneficio que vas a utilizar.</small></div>
-      <div id="allyBenefits" class="ally-benefits"></div>
-    </article>
-    <div class="two-col">
-      <article class="panel"><span class="eyebrow">RED</span><h3>Aliados actuales</h3><ul id="allyList"></ul></article>
-      <article class="panel"><span class="eyebrow">REGLA</span><h3>Consumo transparente</h3><p>Cada uso queda registrado con fecha, socio, aliado y beneficio. No se descuentan usos “a ojo”.</p></article>
-    </div>
-  </section>
+<section id="ally" class="view"><div class="section-head compact"><span class="eyebrow">ÁREA ALIADO</span><h2>Validar. Atender. Registrar.</h2><p>Una pantalla pensada para el momento real de atención.</p></div><article class="panel validator"><label for="memberInput">Número de socio</label><div class="input-row"><input id="memberInput" inputmode="numeric" value="0027"><button id="validate" class="primary">Validar socio</button></div><div id="validationResult" class="validation good"><b>● SOCIO ACTIVO</b><span>María Ejemplo · socio 0027</span><small>Seleccioná el beneficio.</small></div><div id="allyBenefits"></div></article><div class="two-col"><article class="panel"><span class="eyebrow">RED ACTUAL</span><h3>Aliados del Club</h3><ul id="allyList"></ul></article><article class="panel"><span class="eyebrow">REGISTRO</span><h3>Cada uso cuenta una sola vez.</h3><p>El sistema registra socio, aliado, beneficio, fecha y consumo.</p></article></div></section>
 
-  <section id="join" class="view">
-    <div class="section-head"><span class="eyebrow">NUEVO SOCIO</span><h2>Sumarte debería llevar menos de un minuto.</h2><p>En esta versión la solicitud queda preparada para que Lina la registre. No se solicitan datos innecesarios.</p></div>
-    <article class="panel form-panel">
-      <div class="form-grid">
-        <label>Nombre y apellido<input id="joinName" placeholder="Ej. Juan Pérez"></label>
-        <label>WhatsApp (opcional)<input id="joinPhone" inputmode="tel" placeholder="Ej. 299..."></label>
-        <label>Forma de pago<select id="joinPay"><option>Mercado Pago</option><option>Efectivo</option></select></label>
-        <label>¿Cómo conociste el Club?<select id="joinSource"><option>Recomendación</option><option>Aliado</option><option>Redes</option><option>Otro</option></select></label>
-      </div>
-      <button id="joinSubmit" class="primary">Enviar solicitud</button>
-      <div id="joinMessage" class="notice hidden"></div>
-    </article>
-  </section>
-
-  <section id="admin" class="view">
-    <div class="section-head"><span class="eyebrow">GERENCIA GENERAL</span><h2>Hoy, Lina.</h2><p>Una consola operativa, no un laberinto administrativo.</p></div>
-    <div class="admin-grid" id="adminStats"></div>
-    <div class="two-col">
-      <article class="panel"><div class="panel-head"><div><span class="eyebrow">ACCIONES</span><h3>Lo que necesita atención</h3></div></div>
-        <div class="admin-actions"><button data-action="new">+ Registrar socio</button><button data-action="payment">$ Registrar pago</button><button data-action="members">👥 Socios</button><button data-action="allies">🤝 Aliados</button><button data-action="report">↗ Resumen mensual</button></div>
-        <div id="adminMessage" class="notice">Las acciones de esta V2 son simuladas en este sitio público. La próxima capa conectará una base de datos y permisos reales.</div>
-      </article>
-      <article class="panel"><span class="eyebrow">AUTOMATIZACIÓN</span><h3>La máquina hace lo repetitivo</h3>
-        <ol class="rules"><li>Pago registrado → membresía activa.</li><li>Vencimiento → 48 h de gracia.</li><li>Fin de gracia → estado inactivo.</li><li>Mes nuevo → reinicio de consumos no acumulables.</li><li>Uso → registro de auditoría.</li></ol>
-      </article>
-    </div>
-    <article class="panel architecture"><span class="eyebrow">INFRAESTRUCTURA</span><h3>Arquitectura objetivo</h3><div class="flow"><span>Socios</span><i>→</i><span>Membresías</span><i>→</i><span>Beneficios</span><i>→</i><span>Validación</span><i>→</i><span>Usos</span><i>→</i><span>Historial</span></div><p>Frontend móvil + base de datos segura + autenticación por rol + automatizaciones + Mercado Pago + registros de auditoría. Esta página sigue siendo el prototipo público; no se guardan datos reales todavía.</p></article>
-  </section>
+<section id="join" class="view"><div class="section-head compact"><span class="eyebrow">QUIERO SUMARME</span><h2>Empezá por hablar con Lina.</h2><p>La inscripción y renovación se coordinan directamente con la Gerencia General.</p></div><div class="join-layout"><article class="contact-card"><span class="eyebrow light">GERENCIA GENERAL</span><div class="lina-avatar">L</div><h3>Lina Lucero</h3><p>Confirma pagos, activa membresías y resuelve excepciones.</p><button id="contactLina" class="primary wide">Consultar a Lina</button><small>El medio de pago y el alias vigente se informan directamente por ella.</small></article><article class="panel join-info"><span class="eyebrow">PROCESO</span><div class="info-line"><b>01</b><span>Consultás condiciones con Lina.</span></div><div class="info-line"><b>02</b><span>Lina indica el medio de pago vigente.</span></div><div class="info-line"><b>03</b><span>Pagás directamente a ella.</span></div><div class="info-line"><b>04</b><span>Lina confirma y tu membresía queda activa.</span></div><div class="notice">No cargues datos bancarios, tarjetas ni comprobantes sensibles en esta página.</div></article></div></section>
 </main>
-
-<footer>Club Ocarina · San Patricio del Chañar · Gerencia General: Lina Lucero · Una comunidad local de beneficios, servicios, experiencias y oportunidades.</footer>
+<footer><strong>CLUB OCARINA</strong> · San Patricio del Chañar · Gerencia General: Lina Lucero<br>Comunidad local de beneficios, servicios, experiencias y oportunidades.</footer>
 <script src="app.js"></script>
-</body>
-</html>
+</body></html>
