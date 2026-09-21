@@ -1055,3 +1055,477 @@ footer:after{
   .dark-panel,.ally-fast{border-radius:5px 20px 20px 20px}
   .credential,.contact-card{border-radius:20px 5px 20px 20px}
 }
+
+
+/* V3.1.3 · BIBLIOTECA GRÁFICA OCARINA · SOLO ESTÉTICA
+   No cambia HTML, JS, navegación, datos, formularios, rutas ni lógica.
+   Lenguaje: personajes mínimos + flora + río + chacra + mapas + sellos + trazos.
+*/
+
+/* PALETA DE ILUSTRACIÓN */
+:root{
+  --oc-sky:#9fb9bc;
+  --oc-water:#557d83;
+  --oc-leaf:#66795f;
+  --oc-leaf2:#87956e;
+  --oc-earth:#b79b6c;
+  --oc-sun:#d8bc78;
+  --oc-red:#a56e5e;
+}
+
+/* MARCA: pequeño universo gráfico */
+.brand-mark:before{
+  content:"";
+  position:absolute;
+  left:8px;bottom:7px;
+  width:22px;height:9px;
+  border-bottom:2px solid var(--oc-sun);
+  border-radius:50%;
+  transform:rotate(-7deg);
+}
+.brand-mark span{position:relative;z-index:2}
+.brand-mark:after{
+  width:23px;height:23px;
+  right:-8px;bottom:-8px;
+  border-color:#d9c8a566;
+}
+
+/* CABECERA COMO PORTADA ILUSTRADA */
+.site-header:before{
+  content:"";
+  position:absolute;
+  left:2px;bottom:-1px;
+  width:125px;height:1px;
+  background:var(--gold);
+  box-shadow:145px 0 0 -0.25px var(--gold);
+  opacity:.55;
+}
+.site-header .brand:after{
+  content:"";
+  position:absolute;
+  left:78px;top:76px;
+  width:42px;height:18px;
+  border-bottom:1px solid var(--oc-water);
+  border-radius:50%;
+  transform:rotate(-10deg);
+  opacity:.5;
+}
+
+/* HERO: sol, río y pequeña vegetación dibujada */
+.hero-card{
+  overflow:hidden;
+}
+.hero-card:before{
+  content:"";
+  position:absolute;
+  right:125px;bottom:22px;
+  width:94px;height:38px;
+  background:
+    linear-gradient(165deg,transparent 47%,#557d8330 48% 51%,transparent 52%),
+    linear-gradient(175deg,transparent 55%,#66795f35 56% 59%,transparent 60%);
+  opacity:.9;
+  pointer-events:none;
+}
+.hero-card:after{
+  content:"";
+  right:30px;top:23px;
+  width:52px;height:52px;
+  border:1px solid var(--oc-sun);
+  border-radius:50%;
+  box-shadow:0 0 0 8px #d8bc7810,0 0 0 17px #d8bc7808;
+  color:transparent;
+  opacity:.75;
+}
+.hero-card h2:after{
+  content:"";
+  position:absolute;
+  width:190px;height:70px;
+  right:35px;bottom:-48px;
+  border-top:1px solid #557d8330;
+  border-radius:50%;
+  transform:rotate(-8deg);
+  pointer-events:none;
+}
+
+/* PERSONA OCARINA: siluetas editoriales en las tarjetas */
+.manager-card:before,
+.contact-card:before{
+  content:"";
+  position:absolute;
+  width:20px;height:20px;
+  border-radius:50%;
+  background:#d9c8a5;
+  right:20px;top:20px;
+  box-shadow:0 25px 0 7px #d9c8a52a;
+  opacity:.75;
+}
+.contact-card:before{
+  right:24px;top:22px;
+  background:#203b45;
+  box-shadow:0 28px 0 8px #203b4520;
+}
+.manager-card:after{
+  content:"L";
+  right:15px;bottom:6px;
+}
+
+/* NAVEGACIÓN: pequeñas marcas de orientación */
+.rolebar:after{
+  content:"↗  ·  ↘  ·  ○";
+  margin:auto 5px auto auto;
+  color:#d9c8a577;
+  font-size:.55rem;
+  letter-spacing:.12em;
+  white-space:nowrap;
+}
+
+/* MEMBRESÍA: sello + constelación */
+.membership-card{
+  overflow:hidden;
+}
+.membership-card:after{
+  content:"";
+  width:160px;height:160px;
+  right:-76px;top:-72px;
+  border:1px solid #d9c8a522;
+  border-radius:50%;
+  box-shadow:0 0 0 18px #d9c8a50a,0 0 0 37px #d9c8a505;
+}
+.membership-card:before{
+  content:"OC";
+  right:20px;bottom:18px;
+  width:58px;height:58px;
+  border:1px solid #d9c8a544;
+  border-radius:50%;
+  color:#d9c8a5;
+  background:transparent;
+  font:700 .58rem Georgia,serif;
+  letter-spacing:.16em;
+  display:grid;
+  place-items:center;
+}
+
+/* ICONOGRAFÍA PROPIA: cada beneficio recibe un dibujo distinto */
+.benefit{position:relative;overflow:hidden}
+.benefit .icon{
+  position:relative;
+  width:48px;height:48px;
+  border-radius:14px 5px 14px 14px;
+  background:#efe4d0;
+  border:1px solid #d7c7aa;
+  color:transparent;
+}
+.benefit .icon:before{
+  content:"";
+  position:absolute;
+  left:12px;top:11px;
+  width:22px;height:22px;
+  border:1.5px solid var(--oc-water);
+  border-radius:50%;
+}
+.benefit:nth-child(1) .icon:after{
+  content:"";
+  position:absolute;
+  left:22px;top:5px;
+  width:1px;height:34px;
+  background:var(--oc-water);
+  transform:rotate(45deg);
+  box-shadow:-7px 8px 0 -0.2px var(--oc-water),7px -8px 0 -0.2px var(--oc-water);
+}
+.benefit:nth-child(2) .icon:before{
+  border-radius:50% 50% 48% 12%;
+  transform:rotate(-25deg);
+  background:#66795f20;
+}
+.benefit:nth-child(2) .icon:after{
+  content:"";
+  position:absolute;
+  left:23px;top:10px;width:1px;height:28px;background:var(--oc-leaf);
+}
+.benefit:nth-child(3) .icon:before{
+  border-radius:4px;
+  width:24px;height:18px;top:15px;
+}
+.benefit:nth-child(3) .icon:after{
+  content:"";
+  position:absolute;left:16px;top:9px;width:16px;height:7px;
+  border-top:1px solid var(--oc-earth);
+  border-radius:50%;
+}
+.benefit:nth-child(4) .icon:before{
+  width:28px;height:14px;top:18px;left:9px;
+  border-radius:50%;
+}
+.benefit:nth-child(4) .icon:after{
+  content:"";
+  position:absolute;left:23px;top:9px;width:1px;height:27px;
+  background:var(--oc-earth);
+  transform:rotate(-12deg);
+}
+
+/* PERSONAJES DE PAPEL: figuras mínimas junto a Vida del Club */
+.life-grid .content-card,
+.life-grid .opportunity-card,
+.life-grid .encounter-card{
+  isolation:isolate;
+}
+.life-grid .content-card:after,
+.life-grid .opportunity-card:after,
+.life-grid .encounter-card:after{
+  content:"";
+  position:absolute;
+  right:18px;bottom:17px;
+  width:20px;height:20px;
+  border-radius:50%;
+  background:var(--oc-sky);
+  box-shadow:0 23px 0 5px #557d8328;
+  opacity:.72;
+}
+.life-grid .opportunity-card:after{
+  background:var(--oc-leaf2);
+  box-shadow:0 22px 0 5px #66795f26;
+}
+.life-grid .encounter-card:after{
+  background:var(--oc-red);
+  box-shadow:0 22px 0 5px #a56e5e24;
+}
+
+/* CAMINOS: trazos que conectan tarjetas */
+.life-grid:after{
+  content:"";
+  position:absolute;
+  width:115px;height:70px;
+  right:-8px;top:40%;
+  border-top:1px solid #b4935c55;
+  border-radius:50%;
+  transform:rotate(-16deg);
+  pointer-events:none;
+}
+
+/* TERRITORIO: dibujo sobre la foto, sin alterar la fotografía */
+.territory-band-local{
+  isolation:isolate;
+}
+.territory-band-local:before{
+  content:"";
+  left:13px;top:13px;
+  width:74px;height:74px;
+  border-left:1px solid #fff9;
+  border-top:1px solid #fff9;
+  border-radius:20px 0 0 0;
+}
+.territory-band-local:after{
+  content:"RÍO  ~  CHACRA  ~  BARRIO";
+  right:18px;bottom:14px;
+  width:auto;height:auto;
+  border:0;
+  border-radius:0;
+  color:#fff9;
+  font-size:.47rem;
+  letter-spacing:.14em;
+  font-weight:900;
+  writing-mode:horizontal-tb;
+  text-shadow:0 2px 7px #0008;
+}
+
+/* MARCO FOTOGRÁFICO DE OCARINA */
+.territory-photo:before{
+  content:"";
+  position:absolute;
+  z-index:3;
+  inset:12px;
+  border:1px solid #ffffff35;
+  pointer-events:none;
+}
+.territory-photo:after{
+  background:
+    linear-gradient(180deg,transparent 55%,#17212699),
+    linear-gradient(90deg,#17212618,transparent 35%,#17212628);
+}
+
+/* MANIFIESTO: gran dibujo de paisaje */
+.local-story-manifesto .story-mark{
+  isolation:isolate;
+}
+.local-story-manifesto .story-mark:before{
+  content:"";
+  width:250px;height:170px;
+  right:-30px;top:8px;
+  border:0;
+  border-radius:0;
+  transform:none;
+  background:
+    radial-gradient(circle at 72% 24%,#d8bc7870 0 24px,transparent 25px),
+    linear-gradient(165deg,transparent 0 55%,#557d8348 56% 61%,transparent 62%),
+    linear-gradient(174deg,transparent 0 66%,#66795f55 67% 72%,transparent 73%);
+  opacity:.85;
+}
+.local-story-manifesto .story-mark:after{
+  content:"";
+  width:150px;height:1px;
+  right:30px;top:111px;
+  background:#17212655;
+  transform:rotate(-5deg);
+  box-shadow:
+    12px 14px 0 -0.2px #17212644,
+    25px 27px 0 -0.2px #17212633,
+    38px 40px 0 -0.2px #17212622;
+}
+
+/* PULSO: mini mapa abstracto */
+.local-pulse{
+  isolation:isolate;
+}
+.local-pulse:before{
+  content:"RÍO · CHACRA · BARDA · BARRIO";
+  z-index:2;
+}
+.local-pulse:after{
+  z-index:0;
+  right:-45px;bottom:-80px;
+  width:220px;height:220px;
+  border:1px solid #5d756822;
+  border-radius:50%;
+  box-shadow:0 0 0 22px #5d75680b,0 0 0 44px #5d756806;
+}
+.pulse-grid{position:relative;z-index:2}
+.pulse-grid article:before{
+  content:"";
+  position:absolute;
+  right:17px;top:17px;
+  width:26px;height:18px;
+  border-bottom:1px solid var(--oc-water);
+  border-radius:50%;
+  transform:rotate(-12deg);
+  opacity:.55;
+}
+
+/* PASO A PASO: huellas / camino */
+.steps{
+  position:relative;
+}
+.steps:after{
+  content:"•  ·  •  ·  •  ·  •";
+  position:absolute;
+  left:11%;right:11%;top:-11px;
+  color:#d9c8a588;
+  letter-spacing:1.7rem;
+  font-size:.55rem;
+  text-align:center;
+}
+.steps div{
+  position:relative;
+}
+
+/* PRINCIPIO: sello de cuaderno */
+.principle:after{
+  content:"OC";
+  position:absolute;
+  right:17px;top:16px;
+  width:38px;height:38px;
+  border:1px solid #b4935c66;
+  border-radius:50%;
+  display:grid;place-items:center;
+  font:700 .48rem Georgia,serif;
+  color:#8c7348;
+  transform:rotate(9deg);
+}
+.principle{position:relative;overflow:hidden}
+
+/* CREDENCIAL: perforación y estampilla */
+.credential:after{
+  content:"SOCIO";
+  position:absolute;
+  right:22px;bottom:24px;
+  width:60px;height:60px;
+  border:1px dashed #ffffff45;
+  border-radius:50%;
+  display:grid;place-items:center;
+  color:#d9c8a5aa;
+  font-size:.48rem;
+  font-weight:900;
+  letter-spacing:.12em;
+  transform:rotate(-13deg);
+}
+.credential:before{
+  content:"CLUB";
+  z-index:2;
+}
+
+/* ALIADO: flechas dibujadas */
+.ally-fast:after{
+  content:"↗  ↗  ↗";
+  position:absolute;
+  right:23px;top:22px;
+  color:#d9c8a566;
+  font-size:.75rem;
+  letter-spacing:.45em;
+}
+.ally-fast{position:relative;overflow:hidden}
+
+/* FORMULARIOS: detalles de papel */
+.input-row input{
+  border-radius:5px 12px 12px 12px;
+  background:#fffdf8;
+  box-shadow:inset 0 1px 0 #fff,0 3px 9px #2a221008;
+}
+.validation{
+  position:relative;
+  overflow:hidden;
+}
+.validation:after{
+  content:"✓";
+  position:absolute;
+  right:15px;top:10px;
+  font-family:Georgia,serif;
+  font-size:1.7rem;
+  color:#65796844;
+}
+
+/* SUMARSE: personaje caminando hacia la conversación */
+.contact-card{
+  isolation:isolate;
+}
+.contact-card:after{
+  content:"HABLEMOS";
+  right:-15px;bottom:16px;
+  font-size:2.8rem;
+}
+.contact-card .lina-avatar{
+  position:relative;
+}
+.contact-card .lina-avatar:after{
+  content:"";
+  position:absolute;
+  right:-12px;bottom:-8px;
+  width:24px;height:8px;
+  border-bottom:1px solid #c9a978;
+  border-radius:50%;
+  transform:rotate(-12deg);
+}
+
+/* FOOTER: firma gráfica */
+footer:after{
+  content:"CHAÑAR  ·  ACÁ  ·  ENCUENTRO  ·  OCARINA";
+  letter-spacing:.22em;
+}
+footer:before{
+  height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+}
+
+/* REDUCCIÓN MOBILE: conservar ilustración, no saturar */
+@media(max-width:620px){
+  .site-header .brand:after{display:none}
+  .rolebar:after{display:none}
+  .hero-card:after{width:38px;height:38px;right:17px;top:18px}
+  .hero-card:before{right:70px;opacity:.5}
+  .life-grid:after{display:none}
+  .territory-band-local:after{font-size:.42rem;right:12px}
+  .territory-photo:before{inset:9px}
+  .local-story-manifesto .story-mark:before{width:180px;height:125px;right:-35px}
+  .steps:after{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .benefit,.content-card,.opportunity-card,.encounter-card{transition:none}
+}
