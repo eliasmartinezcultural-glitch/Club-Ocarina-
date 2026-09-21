@@ -43,5 +43,5 @@ Objetivo inicial: 10–15 fotografías irreemplazables de Chañar, sin convertir
 Cada imagen propia deberá registrar internamente: lugar, fecha, autor, autorización y sección de destino.
 
 ## Estado
-V1 de presentación: una fuente externa correctamente acreditada + sistema visual territorial propio.
+V3.1.2: una sola fuente externa correctamente acreditada + sistema editorial territorial propio, sin repetición fotográfica.
 Siguiente paso: sustituir progresivamente los recursos gráficos abstractos por fotografía real producida o cedida para Club Ocarina.
