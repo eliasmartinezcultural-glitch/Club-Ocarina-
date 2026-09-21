@@ -2922,4 +2922,32 @@ body:after{
   height:0;
 }
 
+/* V3.1.6 · IDENTIFICACIÓN ESTRUCTURAL + VISUAL DEFINITIVA */
+.edition-mark{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  margin-top:4px;
+  padding:5px 9px;
+  border:1px solid #d8bc7855;
+  border-radius:999px 999px 999px 6px;
+  background:#f3ecdf;
+  color:#66795f;
+  font-size:.58rem;
+  font-weight:900;
+  letter-spacing:.10em;
+  line-height:1.2;
+}
+.footer-lock{
+  background:#e9efea;
+  color:#4d765c;
+  border:1px solid #d5e1d7;
+}
+@media(max-width:560px){
+  .edition-mark{
+    font-size:.52rem;
+    padding:4px 7px;
+  }
+}
+
 /* V3.1.6 · FINAL LOCK · FIN */
