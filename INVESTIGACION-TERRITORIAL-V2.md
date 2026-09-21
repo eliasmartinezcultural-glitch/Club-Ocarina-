@@ -442,3 +442,124 @@ Se diseña después de responder:
 
 La respuesta debe surgir del relevamiento, no del gusto del diseñador.
 
+
+
+## 21. Registro maestro de fuentes
+
+Esta sección convierte la investigación en un sistema auditable. Las fuentes se clasifican por función y no deben mezclarse.
+
+### S1 — Municipalidad de San Patricio del Chañar: Identidad
+URL: https://www.sanpatricio.gob.ar/identidad
+Uso: historia local, Chañar, Fortín/Mangrullo, Tratayen, llegada de propietarios, riego, primeras plantaciones, Gasparri.
+Nivel: **FUENTE PRIMARIA INSTITUCIONAL**.
+Referencia web: citeturn0search3
+
+### S2 — Municipalidad de San Patricio del Chañar: Qué hacer
+URL: https://sanpatricio.gob.ar/quehacer
+Uso: bodegas, circuito agroturístico, Picada 8, Establecimiento San Juan y experiencias locales.
+Nivel: **FUENTE PRIMARIA INSTITUCIONAL**.
+Referencia web: citeturn0search4
+
+### S3 — Neuquén Informa: reseña histórica/aniversario
+Uso: fundación, Comisión de Fomento, evolución administrativa, producción frutícola, acceso por RP7/RP8 y contexto histórico.
+Nivel: **FUENTE PROVINCIAL OFICIAL**.
+Referencia web: citeturn0search2turn0search5
+
+### S4 — Turismo Neuquén
+Uso: relación entre Río Neuquén, chacras, bodegas, producción agropecuaria y turismo.
+Nivel: **FUENTE PROVINCIAL OFICIAL**.
+Referencia web: citeturn0search1
+
+### S5 — Consejo Federal de Inversiones / ordenamiento territorial
+Uso: estructura territorial e inventario de actores institucionales y sociales.
+Nivel: **DOCUMENTACIÓN TÉCNICA OFICIAL**.
+Referencia web: citeturn0search19
+
+### S6 — Neuquén Informa: infraestructura hídrica
+Uso: modernización del sistema de riego, escala de superficie/productores y función del agua en la producción.
+Nivel: **FUENTE PROVINCIAL OFICIAL**.
+Referencia web: citeturn0search7turn0search10
+
+### S7 — Neuquén Informa: producción vitivinícola
+Uso: cronología de plantaciones, bodegas y relación entre vitivinicultura y empleo/localidad.
+Nivel: **FUENTE PROVINCIAL OFICIAL**.
+Referencia web: citeturn0search8
+
+### S8 — Neuquén Informa: Camino del Vino
+Uso: Picada 1, infraestructura rural, viñedos, canal de riego, circuito enoturístico.
+Nivel: **FUENTE PROVINCIAL OFICIAL**.
+Referencia web: citeturn0search12
+
+## 22. Regla de consolidación de evidencia
+
+Cada afirmación que pase a la web pública deberá poder rastrearse a:
+**ID de fuente → afirmación → contexto → fecha de consulta → estado editorial.**
+
+Estados:
+- **VERIFICADO:** dos o más fuentes independientes o una fuente primaria especialmente adecuada.
+- **PRIMARIO:** respaldado por fuente institucional directamente competente.
+- **CORROBORADO:** coincide con otra fuente pero requiere más precisión.
+- **TESTIMONIAL:** proviene de historia oral; no presentar como hecho documental sin contraste.
+- **INTERPRETATIVO:** texto editorial de Club Ocarina.
+- **PENDIENTE:** no publicar todavía.
+
+## 23. Corrección metodológica
+
+No todos los números históricos deben copiarse literalmente entre fuentes. Cuando una fuente usa una superficie, cantidad de habitantes o número de productores para un año determinado, ese dato debe conservar su **año de referencia**.
+
+No convertir datos históricos en cifras actuales.
+
+No convertir declaraciones políticas o discursos institucionales en hechos independientes sin contexto.
+
+No utilizar una fuente turística para demostrar una afirmación histórica si existe documentación histórica más competente.
+
+## 24. Arquitectura editorial consolidada
+
+La V2 utilizará cuatro niveles:
+
+### NIVEL 1 — IDENTIDAD
+Una entrada breve que haga reconocible a Chañar.
+
+### NIVEL 2 — TERRITORIO
+Río · riego · picadas · chacras · bardas · rutas.
+
+### NIVEL 3 — VIDA
+Personas · trabajo · producción · cultura · encuentros.
+
+### NIVEL 4 — CLUB
+Socios · aliados · beneficios · oportunidades · encuentros.
+
+El territorio no reemplaza al Club.
+El Club tampoco debe ocultar el territorio.
+
+La relación correcta es:
+
+**CHÁÑAR → PERSONAS → VÍNCULOS → CLUB**
+
+## 25. Regla de estabilidad
+
+No se modifica la arquitectura pública existente para introducir investigación incompleta.
+
+La investigación se acumula primero en el archivo V2.
+
+Una vez cerrada una evidencia:
+1. se registra la fuente;
+2. se valida el texto;
+3. se selecciona/produce imagen;
+4. se asigna sección;
+5. se implementa;
+6. se revisa responsive;
+7. se congela el cambio con commit.
+
+Así evitamos que cada descubrimiento provoque una nueva reescritura general del sitio.
+
+## 26. Estado consolidado al 20/09/2026
+
+**PISO V1:** BLOQUEADO.  
+**INVESTIGACIÓN V2:** ACTIVA.  
+**DISEÑO V2:** NO CERRADO.  
+**IMÁGENES DEFINITIVAS:** NO CERRADAS.  
+**TEXTOS TERRITORIALES DEFINITIVOS:** NO CERRADOS.  
+**OPERACIÓN REAL:** NO ACTIVAR TODAVÍA.
+
+La prioridad actual es **consistencia y trazabilidad**, no cantidad de funciones.
