@@ -105,3 +105,59 @@ footer{text-align:center;color:var(--muted);padding:34px 20px 48px;font-size:.78
 .share-status{grid-column:1/-1;min-height:1em;color:var(--green);font-size:.72rem;font-weight:800}
 @media(max-width:700px){.share-strip{grid-template-columns:1fr}.share-actions{justify-content:flex-start}}
 @media(max-width:560px){.share-strip{margin-left:10px;margin-right:10px;border-radius:19px;padding:16px}.share-actions{display:grid;grid-template-columns:1fr}.share-actions button{width:100%}}
+
+
+/* V3.1 · CONTINUIDAD, NO INTERPOSICIONES Y MULTIPLATAFORMA */
+.skip-link{position:fixed;left:12px;top:-60px;z-index:1000;padding:10px 14px;border-radius:12px;background:#fff;color:var(--ink);border:2px solid var(--ink);font-weight:900;box-shadow:var(--shadow2);transition:top .18s ease}.skip-link:focus{top:12px}
+main[tabindex="-1"]:focus{outline:none}
+html{scroll-padding-top:92px}
+.site-header{min-width:0}
+.brand,.brand>div{min-width:0}
+.rolebar{max-width:1140px;margin-left:auto;margin-right:auto}
+.share-strip{max-width:1140px;margin-left:auto;margin-right:auto}
+.hero-card,.membership-card,.panel,.credential,.contact-card,.principle,.inclusion,.content-card,.opportunity-card,.encounter-card{min-width:0;overflow-wrap:anywhere}
+.hero-actions button,.share-actions button,.input-row button{min-height:44px}
+.input-row{display:flex;gap:9px;align-items:stretch}.input-row input{min-width:0;flex:1;border:1px solid var(--line);border-radius:13px;padding:12px 14px;background:#fff;color:var(--ink)}
+.validation{margin-top:14px;padding:13px 15px;border-radius:14px;display:grid;gap:3px}.validation.good{background:#e9f1eb;border:1px solid #c9dbce;color:#254b31}.validation.bad{background:#f4e8e3;border:1px solid #e2c9bf;color:#713d2d}
+.fakeqr{display:grid;place-items:center;width:76px;height:76px;border:1px dashed #ffffff55;border-radius:12px;color:#d7e0e1;font-weight:900;letter-spacing:.08em;background:#ffffff08}
+@media(max-width:850px){
+  .site-header{padding:22px 16px 16px;gap:16px}
+  .manager-card{min-width:180px}
+  .hero-grid,.member-layout,.two-col,.join-layout{grid-template-columns:1fr}
+  .benefit-grid{grid-template-columns:1fr 1fr}
+  .rolebar{margin:0 10px 16px;top:6px}
+  .view{padding-left:10px;padding-right:10px}
+  .hero-card{padding:26px}
+}
+@media(max-width:620px){
+  .site-header{display:block}
+  .brand{gap:11px}
+  .brand-mark{width:46px;height:46px;border-radius:15px;font-size:1.65rem;flex:0 0 auto}
+  h1{font-size:clamp(2.35rem,13vw,4rem)}
+  .site-header p{font-size:.96rem}
+  .manager-card{margin-top:14px;min-width:0}
+  .territory-band{margin-left:10px;margin-right:10px}
+  .hero-card{padding:22px;border-radius:20px}
+  .hero-actions{display:grid;grid-template-columns:1fr}
+  .hero-actions button{width:100%}
+  .trust-row{gap:8px;display:grid}
+  .membership-card{border-radius:20px}
+  .section-head{margin-top:36px}
+  .benefit-grid{grid-template-columns:1fr}
+  .life-grid{grid-template-columns:1fr}
+  .input-row{display:grid;grid-template-columns:1fr}
+  .input-row input,.input-row button{width:100%}
+  .ally-fast{border-radius:20px;padding:21px}
+  .panel,.credential,.contact-card,.principle,.inclusion,.content-card,.opportunity-card,.encounter-card{border-radius:20px}
+  footer{padding-left:16px!important;padding-right:16px!important}
+}
+@media(max-width:420px){
+  .rolebar{border-radius:14px}
+  .role{padding:10px 12px;font-size:.82rem}
+  .share-strip{margin-left:0;margin-right:0}
+  .share-actions{gap:8px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
