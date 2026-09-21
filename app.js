@@ -15,3 +15,12 @@ document.getElementById("validate").onclick=()=>{const v=document.getElementById
 document.getElementById("contactLina").onclick=()=>{const msg="Hola Lina, quiero consultar por Club Ocarina y conocer cómo asociarme o renovar mi membresía.";window.open("https://wa.me/"+LINA_WHATSAPP+"?text="+encodeURIComponent(msg),"_blank","noopener,noreferrer")};
 document.getElementById("memberInput").addEventListener("keydown",e=>{if(e.key==="Enter")document.getElementById("validate").click()});
 render();renderAlly();
+const CLUB_URL="https://eliasmartinezcultural-glitch.github.io/Club-Ocarina-/";
+const CLUB_SHARE_TEXT="Club Ocarina · San Patricio del Chañar — Un lugar para encontrarnos.";
+const setShareStatus=(m)=>{const x=document.getElementById("shareStatus");if(x)x.textContent=m;};
+document.getElementById("shareWhatsApp")?.addEventListener("click",()=>{const u="https://wa.me/?text="+encodeURIComponent(CLUB_SHARE_TEXT+" "+CLUB_URL);window.open(u,"_blank","noopener,noreferrer");});
+document.getElementById("copyClub")?.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(CLUB_URL);setShareStatus("Enlace copiado.");}catch(e){setShareStatus("No se pudo copiar automáticamente.");}});
+document.getElementById("shareClub")?.addEventListener("click",async()=>{
+  if(navigator.share){try{await navigator.share({title:"Club Ocarina · San Patricio del Chañar",text:CLUB_SHARE_TEXT,url:CLUB_URL});setShareStatus("Compartido.");}catch(e){if(e?.name!=="AbortError")setShareStatus("Podés usar WhatsApp o copiar el enlace.");}}
+  else{try{await navigator.clipboard.writeText(CLUB_URL);setShareStatus("Enlace copiado. Ya podés pegarlo en tu red social.");}catch(e){setShareStatus("Usá WhatsApp o copiá el enlace desde el navegador.");}}
+});
