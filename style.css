@@ -197,3 +197,29 @@ html{scroll-padding-top:92px}
  .local-cues span{font-size:.57rem;padding:7px 8px}
  .hero-card:before{top:22px;bottom:22px}
 }
+
+/* AJUSTE PROFUNDO DE FACHADA · V3.1 · LOCALIDAD + ENCUENTRO */
+.territory-band-local{grid-template-columns:1.12fr .88fr;min-height:258px;margin-top:0}
+.territory-band-local .territory-photo{min-height:258px}
+.territory-band-local .territory-photo img{object-position:center 52%}
+.territory-band-local .territory-copy{padding:30px 32px}
+.territory-band-local .territory-copy strong{font-size:clamp(1.75rem,2.7vw,2.65rem)}
+.local-story{grid-template-columns:1.08fr .92fr}
+.story-photo-local{position:relative;min-height:390px;background:#d9d0c0;overflow:hidden}
+.story-photo-local img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 55%;filter:saturate(.9) contrast(1.01)}
+.story-photo-local:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,#17212688)}
+.photo-caption{position:absolute;z-index:2;left:18px;bottom:15px;color:#fff;font-size:.66rem;font-weight:800;letter-spacing:.06em;text-shadow:0 2px 8px #0008}
+.story-credit{display:block;margin-top:18px;color:#8a857c;font-size:.67rem;line-height:1.45}
+@media(max-width:850px){
+  .territory-band-local{min-height:0}
+  .territory-band-local .territory-photo{min-height:220px}
+  .territory-band-local .territory-copy{padding:26px 24px}
+  .story-photo-local{min-height:290px}
+}
+@media(max-width:560px){
+  .territory-band-local .territory-photo{min-height:175px}
+  .territory-band-local .territory-copy{padding:22px 20px}
+  .territory-band-local .territory-copy strong{font-size:1.8rem}
+  .story-photo-local{min-height:230px}
+  .photo-caption{left:12px;bottom:11px;font-size:.58rem}
+}
