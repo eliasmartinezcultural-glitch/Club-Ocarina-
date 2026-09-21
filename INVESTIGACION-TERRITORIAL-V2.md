@@ -563,3 +563,414 @@ Así evitamos que cada descubrimiento provoque una nueva reescritura general del
 **OPERACIÓN REAL:** NO ACTIVAR TODAVÍA.
 
 La prioridad actual es **consistencia y trazabilidad**, no cantidad de funciones.
+
+
+## 27. TERCERA CAPA — MICRO TERRITORIO + VIDA COTIDIANA
+
+Esta capa cambia el método de investigación.
+
+Ya no preguntamos solamente **“¿qué es San Patricio del Chañar?”**. Preguntamos:
+
+**¿Cómo se vive San Patricio del Chañar?**
+
+La unidad mínima de investigación pasa a ser:
+
+**LUGAR → PERSONAS → ACTIVIDAD → RELACIÓN → HISTORIA → IMAGEN**
+
+El objetivo no es fabricar un catálogo de barrios y comercios. Es detectar las pequeñas referencias que una persona local reconoce inmediatamente.
+
+### 27.1 Barrios y sectores ya identificados documentalmente
+
+La investigación abierta permite confirmar varias referencias barriales concretas:
+
+- **Barrio Parque Industrial:** aparece asociado a la Plaza de las Infancias, al corredor de Avenida Ingeniero Roberto Gasparri Sur y a actividades culturales. Una ordenanza municipal de 2020 ubica allí la Plaza de las Infancias; fuentes periodísticas locales también utilizan Parque Industrial como referencia vecinal. citeturn2search9turn2search3
+- **Barrio Jardín:** el Boletín Oficial municipal de 2016 delimitó el sector entre Los Álamos, Chos Malal, Los Chañares e Ing. Gasparri Norte. Esto es evidencia especialmente valiosa porque permite pasar de un nombre de barrio a una geometría territorial concreta. citeturn2search57
+- **Barrio Obrero:** una fuente provincial ubica allí el antiguo edificio hospitalario, sobre calle Ingeniero Gasparri. citeturn2search11
+- **Barrio 12 de Octubre:** documentación del Ministerio de Gobierno registra atención del Registro Civil Móvil en calle Gasparri entre Ramos Mejía y Cerro Wayle. Es una referencia territorial que deberá contrastarse y actualizarse antes de utilizarla públicamente como mapa actual. citeturn2search7
+- **Sector 14 Ha / Islas del Balneario Municipal:** el Boletín Oficial municipal registra una obra de puente de acceso al sector. Debe investigarse como microterritorio específico, no mezclarse automáticamente con el centro urbano. citeturn2search60
+
+**Regla:** un nombre de barrio encontrado en una fuente no alcanza para construir una representación visual. Antes hay que confirmar límites, uso cotidiano del nombre y vigencia.
+
+### 27.2 Picadas como unidades de vida
+
+La tercera capa confirma que “Picada” debe tratarse como una unidad territorial y social, no sólo como camino rural.
+
+Ya existen referencias verificadas para:
+
+- Picada 1 — viñedos, bodegas, Camino del Vino.
+- Picada 2 — infraestructura de riego.
+- Picada 3 — actividad comunitaria documentada históricamente; en 2021 hubo una propuesta cultural en este sector. citeturn2search6
+- Picada 5 — Chacra Municipal + familias productoras + EPEA 3.
+- Picada 5 Norte — movilidad de estudiantes y trabajadores rurales + EPEA 3.
+- Picada 8 — Establecimiento San Juan + horticultura + feria rural.
+
+**Nuevo criterio:** cada picada deberá investigarse con cuatro preguntas:
+1. ¿Quién vive o trabaja allí?
+2. ¿Qué produce o qué actividad sostiene?
+3. ¿Cómo se conecta con el núcleo urbano?
+4. ¿Qué imagen la representa sin convertirla en postal?
+
+### 27.3 Calles que empiezan a funcionar como memoria territorial
+
+Las calles dejan de ser simples datos de dirección.
+
+Algunas ya aparecen conectadas documentalmente con instituciones, escuelas y espacios cotidianos:
+
+- Avenida Ingeniero Roberto Gasparri Sur.
+- Avenida Ingeniero Roberto Gasparri Norte.
+- Complejo Chocón.
+- Lago Aluminé.
+- Lago Moquehue.
+- Volcán Lanín.
+- Alerce.
+- Chos Malal.
+- Los Álamos.
+- Los Chañares.
+- Ramos Mejía.
+- Cerro Wayle.
+- Quili Malal.
+
+La Escuela 364, por ejemplo, se ubica entre Lago Aluminé, Arroyo Covunco y Avenida Ignacio Roberto Gasparri Sur. Esto permite estudiar la escuela no sólo como institución sino como **punto de orientación dentro de la vida cotidiana del barrio**. citeturn1search0
+
+La cartografía fina debe evitar convertir listados de calles en contenido público. Su función inicial será construir un **mapa interno de relaciones territoriales**.
+
+### 27.4 Escuelas = nodos de comunidad
+
+La investigación actual permite reconocer una red educativa mucho más rica que una simple lista:
+
+- Escuela Primaria N°342.
+- Escuela Primaria N°364.
+- Escuela Primaria N°191.
+- CPEM N°31.
+- EPET N°26.
+- EPEA N°3.
+- CFPA N°2.
+
+La Escuela 364 fue creada en 2017 y en marzo de 2026 inauguró su edificio propio, ubicado entre Lago Aluminé, Arroyo Covunco y Avenida Gasparri Sur. La fuente provincial registra una matrícula de 222 estudiantes al momento de la inauguración y describe biblioteca, SUM, aulas, playón y espacios de acceso. citeturn1search0
+
+La Escuela 342 también aparece como institución local en documentación provincial reciente. citeturn1search2turn1search12
+
+La EPEA 3 y el CFPA 2 son especialmente relevantes para Club Ocarina porque conectan **educación + producción + arraigo**. La primera feria regional de turismo de 2026 incluyó a ambas instituciones mostrando proyectos y experiencias productivas. citeturn3search1
+
+**Conclusión de investigación:** las escuelas pueden ser nodos narrativos de futuro, no sólo edificios fotografiables.
+
+### 27.5 Clubes, plazas y espacios donde la gente se encuentra
+
+La Municipalidad identifica:
+
+- Plaza de las Infancias;
+- Balneario Municipal;
+- Centro Cultural Erika Barión de Werro;
+- Estadio Municipal Juan Bautista Jara;
+- Muro de la Identidad;
+- Parroquia San Patricio;
+- Puesto Chañar;
+- Mirador La Virgen.
+
+Estos espacios ya están documentados como lugares de recreación, cultura, deporte, educación, memoria y encuentro. citeturn1search1
+
+El Club Atlético San Patricio ocupa una posición particularmente interesante: el Estadio Municipal es su sede y en agosto de 2026 se documentaron obras de infraestructura dentro del programa provincial Clubes Sociales. citeturn0search8
+
+**Para Club Ocarina:** no se trata de copiar la ficha institucional. Hay que investigar qué significa cada espacio para quienes lo usan.
+
+### 27.6 Vida cotidiana: aparecen señales que no están en los catálogos turísticos
+
+La investigación comienza a encontrar lugares y actividades que revelan otra escala de Chañar:
+
+- Feria Franca y productores locales.
+- Paseo Los Eucaliptos.
+- ferias de artesanos y emprendedores.
+- gastronomía cotidiana.
+- espacios juveniles y deportivos.
+- recorridos culturales.
+- actividades vinculadas a música y danza.
+- pequeñas iniciativas familiares.
+
+Una fuente local reportó en enero de 2026 la Feria Franca en el Paseo Los Eucaliptos, frente a RP7, con frutas, verduras, dulces, conservas, huevos, plantas y productos artesanales. El dato sirve como pista de investigación, pero deberá corroborarse directamente con Municipio/productores antes de publicarlo como información operativa. citeturn3search0
+
+La Feria Regional “Sabores y Amigos” de julio de 2026 también reunió productores, artesanos, emprendedores, gastronomía, instituciones educativas y propuestas culturales en un mismo espacio. citeturn3search1
+
+**Hallazgo:** la identidad cotidiana no está sólo en “lugares turísticos”; también está en los lugares donde se compra, se vende, se aprende, se ensaya, se juega y se conversa.
+
+### 27.7 Comercios y emprendimientos: no hacer un directorio todavía
+
+La Municipalidad ya publica listados de gastronomía y otros servicios. Por ejemplo, registra establecimientos en Complejo Chocón, Araucaria, Villa La Angostura y el entorno de Rutas 7 y 8. citeturn0search1
+
+Pero Club Ocarina no debe transformarse en un directorio municipal.
+
+La investigación comercial debe buscar otra cosa:
+
+**¿Qué emprendimientos tienen una historia humana, una relación territorial o una capacidad real de generar vínculos?**
+
+Cada candidato deberá tener una ficha interna:
+
+- nombre;
+- rubro;
+- ubicación;
+- barrio/picada;
+- quién lo lleva;
+- desde cuándo;
+- qué problema resuelve;
+- qué lo hace local;
+- relación con otros actores;
+- posibilidad de alianza;
+- permiso para fotografía/testimonio;
+- fuente;
+- estado.
+
+### 27.8 Artistas y cultura: investigar escenas, no sólo nombres
+
+La cultura local aparece distribuida entre:
+
+- Centro Cultural;
+- Estadio y Muro de la Identidad;
+- Fiesta del Pelón;
+- música;
+- danzas;
+- teatro;
+- ferias;
+- proyectos juveniles;
+- espacios gastronómicos/culturales.
+
+En 2026, la Fiesta Provincial del Pelón reunió música en vivo, danzas folklóricas, destrezas criollas, gastronomía, artesanos y emprendedores. citeturn3search7
+
+También existe evidencia reciente de una nueva bodega urbana, **El Chical**, concebida además como espacio cultural y turístico. citeturn0search7
+
+**No se debe saltar todavía a una lista de “artistas destacados”.** Primero hay que reconstruir la escena: quiénes crean, dónde se encuentran, qué disciplinas aparecen, qué generaciones participan y qué espacios utilizan.
+
+### 27.9 Primer mapa de microterritorios para trabajo de campo
+
+Se establece provisionalmente esta matriz:
+
+| Microterritorio | Lo que ya sabemos | Lo que falta descubrir | Fotografía prioritaria |
+|---|---|---|---|
+| Centro / eje Gasparri | instituciones, comercio, servicios | recorridos cotidianos | calle + personas + fachadas |
+| Parque Industrial | Plaza de las Infancias, cultura, educación | vida barrial real | plaza en uso |
+| Barrio Jardín | límites documentados | identidad vecinal | calles + transición urbano/barrial |
+| Barrio Obrero | referencia histórica del hospital | memoria del sector | arquitectura + relato |
+| 12 de Octubre | referencia administrativa | límites, vida cotidiana | calle + actividad |
+| 14 Ha / Islas Balneario | conexión con balneario | población y uso cotidiano | acceso + río + familias |
+| Picada 1 | vino, Camino del Vino | vida rural real | camino + producción |
+| Picada 2 | riego | productores y cotidianeidad | canal + entorno |
+| Picada 3 | actividad cultural documentada | comunidad actual | personas + espacio |
+| Picada 5 | chacra municipal + EPEA | historias familiares | producción + escuela |
+| Picada 5 Norte | estudiantes + trabajadores | recorridos diarios | camino + movilidad |
+| Picada 8 | horticultura + feria | productores actuales | invernadero + personas |
+| Río / Balneario | recreación y paisaje | usos fuera de temporada | agua + vida cotidiana |
+| Bardas / Mirador | paisaje + patrimonio | usos locales | relación barda-valle |
+
+Esta matriz es **interna**. No se publica todavía.
+
+## 28. Sistema de investigación de personas
+
+La tercera capa introduce una regla nueva:
+
+No buscar “personajes importantes”.
+
+Buscar **personas conectadas**.
+
+Cada entrevista candidata debe poder responder:
+
+**PERSONA → LUGAR → OFICIO/ACTIVIDAD → VÍNCULO → CAMBIO → RECUERDO**
+
+Ejemplos de perfiles a relevar:
+
+- productor/a de una picada;
+- comerciante de barrio;
+- docente o estudiante;
+- artista local;
+- deportista;
+- trabajador/a rural;
+- emprendedor/a;
+- fotógrafo/a;
+- integrante de una comisión o club;
+- vecino/a con memoria de un espacio;
+- joven que esté construyendo un proyecto.
+
+La primera etapa no publica nada: **escucha y registra**.
+
+## 29. Archivo de pequeñas historias
+
+Se crea una nueva categoría de evidencia:
+
+### HISTORIA PEQUEÑA
+
+No requiere que el hecho sea famoso.
+
+Puede ser:
+
+- una plaza que cambió de uso;
+- una familia que mantiene una actividad;
+- un camino que todos conocen;
+- un comercio que funciona desde hace años;
+- una cancha donde se reúnen generaciones;
+- una receta;
+- una palabra local;
+- una forma de recorrer una picada;
+- una costumbre de feria;
+- una historia sobre cómo llegó alguien a Chañar.
+
+Cada historia deberá registrar:
+
+**qué pasó → quién lo cuenta → dónde → cuándo → qué parte está documentada → qué parte es memoria → permiso de publicación.**
+
+## 30. Lo que esta capa cambia en la V1
+
+No se elimina ni se modifica todavía ningún bloque público.
+
+Pero quedan señalados como **candidatos a revisión**:
+
+### A revisar
+- imágenes genéricas actuales;
+- textos demasiado intercambiables con cualquier “club local”;
+- frases territoriales que no tengan anclaje concreto;
+- imágenes de viñedos si sólo funcionan como decoración;
+- cualquier sección que nombre Chañar sin demostrar por qué ese contenido sólo podría estar allí.
+
+### A conservar
+- concepto de Club contemporáneo;
+- estructura simple;
+- navegación por roles;
+- beneficios;
+- Vida del Club;
+- tono humano;
+- operación futura con Lina;
+- exclusión de pagos online;
+- arquitectura PERTENENCIA → BENEFICIOS → ENCUENTRO → OPORTUNIDADES → CONFIANZA.
+
+### Nueva prioridad
+La identidad local debe aparecer **por selección**, no por cantidad.
+
+## 31. Nuevo criterio fotográfico
+
+La próxima producción fotográfica ya no se organizará por “paisajes bonitos”.
+
+Se organizará por **pruebas de pertenencia**:
+
+1. **Una imagen que sólo pueda ser Chañar.**
+2. **Una imagen de vida cotidiana.**
+3. **Una imagen de trabajo/producción.**
+4. **Una imagen de encuentro.**
+5. **Una imagen de futuro.**
+
+Idealmente, una misma escena puede cumplir más de una función.
+
+No necesitamos 100 imágenes.
+
+Necesitamos primero **10–15 imágenes irreemplazables**.
+
+## 32. Fuentes incorporadas a la tercera capa
+
+### S9 — Municipalidad: Nuestra Ciudad
+Uso: Balneario, Plaza de las Infancias, Centro Cultural, Estadio, Muro de la Identidad, Parroquia, Puesto Chañar, Mirador La Virgen.
+Nivel: **FUENTE PRIMARIA INSTITUCIONAL**. citeturn1search1
+
+### S10 — Neuquén Informa: Escuela 364
+Uso: ubicación urbana, calles, comunidad educativa, historia reciente de la institución y edificio inaugurado en 2026.
+Nivel: **FUENTE PROVINCIAL OFICIAL**. citeturn1search0
+
+### S11 — Neuquén Informa: red educativa
+Uso: Escuela 191, CPEM 31, EPET 26 y contexto educativo local.
+Nivel: **FUENTE PROVINCIAL OFICIAL**. citeturn1search12turn1search2
+
+### S12 — Boletín Oficial municipal: Barrio Jardín
+Uso: delimitación documental del barrio.
+Nivel: **FUENTE NORMATIVA MUNICIPAL**. citeturn2search57
+
+### S13 — Boletín Oficial / ordenanza Plaza de las Infancias
+Uso: ubicación en Barrio Parque Industrial y función cultural/recreativa.
+Nivel: **FUENTE NORMATIVA OFICIAL**. citeturn2search9
+
+### S14 — Ministerio de Gobierno: Registro Civil Móvil
+Uso: referencia territorial del Barrio 12 de Octubre y calle Gasparri.
+Nivel: **FUENTE OFICIAL PROVINCIAL**. citeturn2search7
+
+### S15 — Neuquén Informa: Club San Patricio
+Uso: actividad institucional/deportiva reciente y ubicación del club dentro de la vida comunitaria.
+Nivel: **FUENTE PROVINCIAL OFICIAL**. citeturn0search8
+
+### S16 — Neuquén Informa: Fiesta Provincial del Pelón 2026
+Uso: cultura, música, danza, artesanos, emprendedores y trabajador rural.
+Nivel: **FUENTE PROVINCIAL OFICIAL**. citeturn3search7
+
+### S17 — Neuquén Informa: Feria Regional Sabores y Amigos 2026
+Uso: productores, emprendedores, gastronomía, cultura, EPEA 3, CFPA 2 y recorrido “Explorá Chañar”.
+Nivel: **FUENTE PROVINCIAL OFICIAL**. citeturn3search1
+
+### S18 — Municipalidad: gastronomía local
+Uso: inventario inicial de establecimientos gastronómicos; no usar como sustituto de relevamiento comercial.
+Nivel: **FUENTE PRIMARIA INSTITUCIONAL**. citeturn0search1
+
+### S19 — Neuquen Informa: El Chical
+Uso: emprendimiento contemporáneo que combina producción vitivinícola y espacio cultural.
+Nivel: **FUENTE PROVINCIAL OFICIAL**. citeturn0search7
+
+### S20 — Fuentes locales sobre Feria Franca
+Uso: pista para investigar producción, Paseo Los Eucaliptos y economía cotidiana.
+Nivel: **FUENTE SECUNDARIA LOCAL / PENDIENTE DE CORROBORACIÓN DIRECTA**. citeturn3search0turn3search6
+
+## 33. Estado de esta tercera capa
+
+**CONFIRMADO / DOCUMENTADO**
+- existencia y delimitación documental de Barrio Jardín;
+- referencia de Parque Industrial;
+- referencia de Barrio Obrero;
+- referencia de Barrio 12 de Octubre;
+- referencia de 14 Ha / Islas Balneario;
+- relación entre escuelas y calles;
+- red de escuelas e instituciones educativas;
+- Club Atlético San Patricio como nodo comunitario/deportivo;
+- Plaza de las Infancias como espacio barrial;
+- Feria Regional como espacio de productores/emprendedores/cultura;
+- existencia de escenas productivas y culturales más allá de las bodegas.
+
+**EN INVESTIGACIÓN**
+- límites reales y percepción vecinal de cada barrio;
+- mapa completo de microterritorios;
+- calles de referencia utilizadas coloquialmente por vecinos;
+- comercios de barrio;
+- emprendimientos familiares;
+- artistas y escenas culturales;
+- historias pequeñas;
+- vocabulario local;
+- recorridos cotidianos;
+- fotografías propias;
+- permisos de publicación.
+
+**PENDIENTE**
+- no convertir esta capa en contenido público todavía;
+- no publicar un mapa barrial sin validación local;
+- no presentar fuentes periodísticas locales como evidencia definitiva cuando puedan contrastarse con fuentes primarias;
+- no identificar personas como referentes sin consentimiento.
+
+## 34. Próximo movimiento: TRABAJO DE CAMPO QUIRÚRGICO
+
+La investigación web ya llegó al punto en que seguir acumulando nombres sin caminar el territorio produciría ruido.
+
+El siguiente paso debe ser:
+
+**INVESTIGACIÓN DOCUMENTAL → RECORRIDO → FOTOGRAFÍA → ENTREVISTA → CONTRASTE → ARCHIVO → SELECCIÓN → DISEÑO**
+
+### Recorrido mínimo recomendado
+
+**Ruta A — urbano/comunitaria**
+Gasparri → Parque Industrial → Plaza de las Infancias → Centro Cultural → Estadio/Muro → escuelas → comercios cercanos.
+
+**Ruta B — productiva**
+RP7/RP8 → Picada 1 → Picada 5 → Picada 5 Norte → Picada 8.
+
+**Ruta C — agua/paisaje**
+Río Neuquén → Balneario → 14 Ha/Islas → canales → bardas/Mirador.
+
+**Ruta D — personas**
+feria → productores → comerciantes → artistas → club → escuelas → emprendimientos.
+
+Cada recorrido debe producir pocos elementos, pero de alta calidad y trazabilidad.
+
+### Regla final de esta capa
+
+**No buscamos demostrar que conocemos Chañar nombrando muchas cosas.**
+
+Buscamos que, después de ver la página, una persona de Chañar pueda pensar:
+
+**“Sí. Esto lo podría haber hecho alguien de acá.”**
