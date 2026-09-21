@@ -32,3 +32,59 @@ No se vuelve a cero salvo que exista una razón técnica o estratégica document
 ## Regla de calidad
 No agregar funciones por cantidad. Cada incorporación debe mejorar simultáneamente:
 **valor del socio + utilidad del aliado + facilidad operativa de Lina**.
+
+
+---
+
+# V3.1 · PISO FUNCIONAL CURADO
+
+**Estado: BLOQUEADO — V3.1**
+
+V3.1 no reemplaza la identidad ni la fachada curada. Es una capa correctiva y funcional construida sobre el piso anterior.
+
+## Qué corrige
+
+- interposiciones y desbordes entre bloques;
+- comportamiento de la navegación en móvil;
+- ancho y apilado de tarjetas;
+- formularios y acciones táctiles;
+- foco de teclado y salto al contenido;
+- continuidad entre vistas;
+- navegación por historial/hash;
+- reducción de movimiento cuando el dispositivo lo solicita;
+- identificación explícita de la credencial de demostración;
+- separación entre interfaz demostrativa y operación real.
+
+## Regla V3.1
+
+**Primero continuidad. Después función. Después estética.**
+
+Ningún bloque puede tapar, desplazar de forma inesperada, cortar o competir con una acción primaria.
+
+## Contrato multiplataforma
+
+La experiencia debe conservar:
+1. lectura clara en móvil pequeño;
+2. operación táctil sin precisión fina;
+3. formularios utilizables con teclado;
+4. jerarquía estable en tablet y escritorio;
+5. ausencia de dependencia de hover;
+6. ausencia de orientación horizontal obligatoria;
+7. navegación recuperable mediante historial/enlace;
+8. respeto por reducción de movimiento;
+9. contenido demo identificado como demo;
+10. misma lógica conceptual en todas las pantallas.
+
+## Lo que no cambia
+
+- identidad Club Ocarina · San Patricio del Chañar;
+- modelo PERTENENCIA → BENEFICIOS → ENCUENTRO → OPORTUNIDADES → CONFIANZA;
+- pago fuera de la web;
+- rol operativo de Lina;
+- política visual local;
+- ausencia de stock genérico presentado como Chañar;
+- fachada editorial curada.
+
+## Próximo piso
+
+V3.1 queda como base para la **operación real de Lina**. No se incorporan funciones nuevas a la fachada salvo que una prueba real demuestre una falla de uso, accesibilidad o seguridad.
