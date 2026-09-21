@@ -286,3 +286,159 @@ Si no cumple: **NO PUBLICAR**.
 - permisos de uso de imágenes.
 
 **REGLA V2:** la investigación continúa antes de cerrar textos y fotografía definitivos.
+
+
+## 14. Segunda capa de investigación: territorio fino
+
+La investigación de fuentes abiertas permite confirmar que las “picadas” no son un recurso literario: forman parte de la geografía productiva y cotidiana de Chañar.
+
+### Picada 1
+La Provincia informó en 2025 que el proyecto del Camino del Vino contempla la **Picada 1** como acceso para integrar viñedos y bodegas y mejorar la experiencia turística y la logística comercial. Esto convierte a Picada 1 en una referencia territorial contemporánea que merece relevamiento fotográfico específico.
+
+**Estado:** confirmado como referencia territorial/productiva; pendiente relevamiento visual propio.
+
+### Picada 5
+La Municipalidad ubica allí la Chacra Municipal “Valles del Chañar”, de 10 hectáreas, donde 40 familias producen hortalizas durante las cuatro estaciones. La fuente municipal también describe canales de riego y 27 invernaderos. La documentación educativa provincial ubica además a la EPEA N°3 en Picada 5 Norte, dentro de la zona de chacras. 
+
+**Lectura:** Picada 5 concentra una combinación especialmente valiosa para Club Ocarina: producción + educación + familias + riego + trabajo.
+
+### Picada 5 Norte
+Una comunicación provincial de 2015 vincula Picada 5 Norte con la EPEA 3 y con trabajadores rurales, al informar la construcción de una ciclovía destinada a mejorar la seguridad de alumnos y trabajadores rurales.
+
+**Lectura:** la zona debe investigarse no sólo como paisaje productivo sino como espacio de movilidad cotidiana.
+
+### Picada 8
+La información municipal sobre agroturismo identifica el Establecimiento San Juan en Picada 8, dedicado a producción hortícola mediante invernaderos y riego por goteo, y vinculado a una feria rural de artesanos y productores locales.
+
+**Lectura:** Picada 8 puede representar la dimensión de pequeña producción, feria y economía local.
+
+### Picada 2
+Documentación oficial provincial de infraestructura registra obras sobre el canal terciario Picada 2, lo que aporta evidencia de que la red de riego y las picadas están territorialmente conectadas.
+
+**Estado:** confirmada como referencia del sistema productivo/hídrico; falta determinar qué elementos cotidianos y visuales deben formar parte de Club Ocarina.
+
+## 15. Nuevo mapa narrativo
+
+A partir de esta segunda capa, la identidad territorial puede organizarse provisionalmente así:
+
+**EL RÍO**
+→ origen del agua y paisaje.
+
+**EL RIEGO**
+→ infraestructura invisible que hizo posible transformar el territorio.
+
+**LAS PICADAS**
+→ caminos y unidades de producción; territorio vivido.
+
+**LAS CHACRAS**
+→ trabajo, familias, frutas y hortalizas.
+
+**LAS BODEGAS**
+→ transformación contemporánea y turismo productivo.
+
+**LOS ESPACIOS COMUNITARIOS**
+→ escuela, club, cultura, plazas, estadio, parroquia.
+
+**LAS PERSONAS**
+→ quienes producen, trabajan, emprenden, enseñan, crean y se encuentran.
+
+Esto es más fiel a la identidad documentada que construir una narrativa exclusivamente alrededor del vino.
+
+## 16. Hipótesis editorial que ahora debe probarse
+
+**“San Patricio del Chañar es una localidad construida alrededor de la transformación de un territorio árido mediante agua, trabajo, producción y organización comunitaria.”**
+
+Esto es una **hipótesis editorial**, no un hecho histórico cerrado. Está respaldada parcialmente por las fuentes sobre riego, producción, formación urbana e instituciones, pero deberá contrastarse con testimonios y documentación histórica antes de convertirse en texto principal del sitio.
+
+## 17. Cronología de trabajo
+
+- **1881–1882:** documentación de mensura vinculada al antiguo Fortín/Mangrullo Chañar.
+- **1913:** mensura de la colonia Tratayen.
+- **1966:** adquisición inicial de El Chañar por propietarios de Cinco Saltos.
+- **1968:** adquisición de 20.000 hectáreas por la empresa que luego sería Gasparri Hnos.
+- **1969:** comienzo de obras de sistematización y primeras plantaciones/cultivos por bombeo.
+- **1971:** primera bocatoma y comienzo de la venta de parcelas plantadas.
+- **1973:** nacimiento de la Comisión de Fomento según fuentes provinciales; la Municipalidad también identifica 1973 como momento fundacional.
+- **1974:** puesta en funcionamiento de autoridades de la Comisión de Fomento.
+- **1975:** primeras cantidades industriales de fruta y fundación del Club Atlético San Patricio, según reseña provincial.
+- **1978:** municipio de tercera categoría.
+- **1985:** primera edición de la Fiesta Provincial del Pelón según Municipalidad.
+- **1987:** municipio de segunda categoría.
+- **2000–2003:** hitos del Estadio Municipal Juan Bautista Jara.
+- **2000–2003:** consolidación de la actividad vitivinícola según documentación educativa/provincial.
+- **2003:** municipio de primera categoría.
+- **2006:** Dique Compensador declarado Área Natural Protegida Municipal.
+- **2011:** creación de EPEA N°3.
+- **2013:** inauguración del Centro Cultural Erika Barión de Werro.
+- **2025:** proyecto provincial del Camino del Vino con Picada 1 como acceso estratégico.
+
+**Nota:** las fechas deberán conservar su fuente específica cuando se utilicen en la web. No fusionar “fundación”, “creación de Comisión de Fomento”, “puesta en funcionamiento” y “municipalización” como si fueran un único acontecimiento.
+
+## 18. Hallazgo estratégico para Club Ocarina
+
+La web municipal ya dispone de una cantidad considerable de información territorial: Balneario, Plaza de las Infancias, Chacra Municipal, Dique Compensador, Centro Cultural, Estadio, Parroquia, Puesto Chañar y Mirador La Virgen.
+
+Por lo tanto, Club Ocarina **no debe copiar el catálogo municipal**.
+
+Su aporte diferencial debe ser:
+
+**territorio + personas + vínculos + pequeñas historias + descubrimientos + comunidad contemporánea.**
+
+La Municipalidad puede funcionar como fuente primaria para datos institucionales y territoriales; Club Ocarina debe transformar esos datos en una experiencia humana y comunitaria propia, con fotografías propias y relatos autorizados.
+
+## 19. Próximo relevamiento obligatorio
+
+Antes de cambiar la portada visual:
+
+### A. Cartografía
+Construir un inventario de:
+- Picada 1;
+- Picada 2;
+- Picada 5;
+- Picada 5 Norte;
+- Picada 8;
+- accesos RP7/RP8;
+- Río Neuquén;
+- Dique Compensador;
+- áreas de chacras;
+- núcleo urbano;
+- lugares comunitarios.
+
+### B. Fotografía
+Obtener imágenes propias de:
+- entrada a la localidad;
+- paisaje urbano;
+- paisaje de chacras;
+- canales/agua;
+- Picada 1;
+- Picada 5;
+- Picada 8;
+- río;
+- producción;
+- espacios comunitarios;
+- personas reales, con autorización.
+
+### C. Historia oral
+Entrevistar al menos:
+- una persona vinculada a familias pioneras;
+- un productor;
+- un trabajador rural;
+- una persona vinculada a cultura;
+- un integrante de un club;
+- un emprendedor contemporáneo;
+- una persona joven que esté construyendo su futuro en Chañar.
+
+### D. Contraste
+Cada relato debe separar:
+**documento → testimonio → interpretación.**
+
+## 20. Regla nueva de diseño
+
+La próxima portada no se diseña con “fotos bonitas de Chañar”.
+
+Se diseña después de responder:
+
+**¿Qué 3 imágenes podrían demostrar en cinco segundos que Club Ocarina nació en San Patricio del Chañar?**
+
+La respuesta debe surgir del relevamiento, no del gusto del diseñador.
+
