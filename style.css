@@ -37,10 +37,6 @@ footer{text-align:center;color:var(--muted);padding:34px 20px 48px;font-size:.78
 
 /* CAPA TERRITORIAL · PISO VISUAL CURADO V1 */
 .territory-band{margin:0 20px 22px;max-width:1140px;min-height:190px;border-radius:28px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr 1fr 1.35fr;background:var(--ink);box-shadow:var(--shadow);position:relative}
-.territory-image{min-height:190px;background-size:cover;background-position:center;filter:saturate(.72) contrast(.96)}
-.territory-vine{background-image:linear-gradient(#17212655,#17212655),url("https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=700&q=78")}
-.territory-river{background-image:linear-gradient(#17212655,#17212655),url("https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=700&q=78")}
-.territory-barda{background-image:linear-gradient(#17212655,#17212655),url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=78")}
 .territory-copy{padding:25px;display:flex;flex-direction:column;justify-content:center;color:#fff;background:linear-gradient(135deg,#172126,#253b44)}
 .territory-copy .eyebrow{color:#cbdce2}.territory-copy strong{font-family:Georgia,serif;font-size:1.55rem;line-height:1.1;margin:8px 0}.territory-copy small{color:#c7d0d1;max-width:280px}
 .local-story{margin-top:16px;border:1px solid var(--line);border-radius:28px;overflow:hidden;background:var(--paper);display:grid;grid-template-columns:1fr 1fr;box-shadow:var(--shadow)}
@@ -99,3 +95,13 @@ footer{text-align:center;color:var(--muted);padding:34px 20px 48px;font-size:.78
 .visual-credits b{color:var(--ink);letter-spacing:.04em}.visual-credits a{color:var(--blue);font-weight:800;text-decoration:none}.visual-credits a:hover{text-decoration:underline}
 @media(max-width:850px){.territory-photo{min-height:125px}}
 @media(max-width:560px){.territory-photo{min-height:112px}.territory-photo span{left:10px;bottom:9px;font-size:.56rem}}
+
+/* COMPARTIR · EXPERIENCIA V1 */
+.share-strip{margin:0 20px 22px;padding:16px 18px;border:1px solid var(--line);border-radius:22px;background:rgba(255,253,248,.94);box-shadow:var(--shadow2);display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center}
+.share-strip strong{display:block;font-family:Georgia,serif;font-size:1.22rem;margin-top:3px}
+.share-strip small{display:block;color:var(--muted);font-size:.78rem;margin-top:2px}
+.share-actions{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.share-actions .primary,.share-actions .ghost{padding:9px 12px;font-size:.78rem}
+.share-status{grid-column:1/-1;min-height:1em;color:var(--green);font-size:.72rem;font-weight:800}
+@media(max-width:700px){.share-strip{grid-template-columns:1fr}.share-actions{justify-content:flex-start}}
+@media(max-width:560px){.share-strip{margin-left:10px;margin-right:10px;border-radius:19px;padding:16px}.share-actions{display:grid;grid-template-columns:1fr}.share-actions button{width:100%}}
