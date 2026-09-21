@@ -161,3 +161,39 @@ html{scroll-padding-top:92px}
   html{scroll-behavior:auto}
   *,*::before,*::after{transition:none!important;animation:none!important}
 }
+
+
+/* DIRECCIÓN ESTÉTICA · CHÁÑAR REAL + ENCUENTRO */
+.territory-band-local{display:grid;grid-template-columns:1.18fr .82fr;overflow:hidden;border-radius:28px;background:var(--ink);box-shadow:var(--shadow);margin:0 20px 22px;min-height:340px}
+.territory-band-local .territory-photo{min-height:340px}
+.territory-band-local .territory-photo img{object-position:center 55%;filter:saturate(.92) contrast(1.02)}
+.territory-band-local .territory-photo:after{background:linear-gradient(90deg,#17212608 45%,#172126aa 100%),linear-gradient(180deg,#17212608,#17212666)}
+.territory-band-local .territory-photo span{font-size:.68rem;letter-spacing:.14em}
+.territory-band-local .territory-copy{padding:38px 34px;display:flex;flex-direction:column;justify-content:center;color:#fff;background:linear-gradient(145deg,#1a2a30,#223d43)}
+.territory-band-local .territory-copy strong{font-family:Georgia,serif;font-size:clamp(1.9rem,3vw,3.1rem);font-weight:500;line-height:1.04;letter-spacing:-.035em;margin:9px 0 13px}
+.territory-band-local .territory-copy small{color:#d2dcdd;font-size:.93rem;max-width:420px}
+.local-cues{display:flex;flex-wrap:wrap;gap:7px;margin-top:24px}
+.local-cues span{padding:8px 10px;border:1px solid #ffffff26;border-radius:999px;color:#e5e1d6;font-size:.62rem;font-weight:900;letter-spacing:.1em}
+.hero-card{position:relative}
+.hero-card:before{content:"";position:absolute;left:0;top:28px;bottom:28px;width:4px;border-radius:4px;background:var(--gold)}
+.hero-card h2{max-width:700px}
+.hero-card p{max-width:650px}
+.life-grid .content-card,.life-grid .opportunity-card,.life-grid .encounter-card{transition:transform .18s ease,box-shadow .18s ease}
+.life-grid .content-card:hover,.life-grid .opportunity-card:hover,.life-grid .encounter-card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.local-story{background:#ebe6da}
+.story-copy h2{max-width:560px}
+.local-pulse{background:#e6eeeb}
+@media(max-width:850px){
+ .territory-band-local{grid-template-columns:1fr;margin-left:10px;margin-right:10px;min-height:0}
+ .territory-band-local .territory-photo{min-height:260px}
+ .territory-band-local .territory-copy{padding:28px 24px}
+}
+@media(max-width:560px){
+ .territory-band-local{border-radius:20px}
+ .territory-band-local .territory-photo{min-height:210px}
+ .territory-band-local .territory-copy{padding:24px 20px}
+ .territory-band-local .territory-copy strong{font-size:1.85rem}
+ .local-cues{gap:5px}
+ .local-cues span{font-size:.57rem;padding:7px 8px}
+ .hero-card:before{top:22px;bottom:22px}
+}
