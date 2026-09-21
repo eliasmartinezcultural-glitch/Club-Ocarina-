@@ -542,3 +542,516 @@ footer:before{
 @media(prefers-reduced-motion:reduce){
   .territory-band-local .territory-photo img{transition:none}
 }
+
+
+/* V3.1.2 · DIRECCIÓN DE ARTE PROFUNDA · SOLO CSS · FUNCIONALIDAD INTACTA
+   Sistema visual: editorial local contemporáneo / papel / tinta / territorio.
+*/
+:root{
+  --ink-deep:#111b1f;
+  --ink-blue:#203b45;
+  --chalk:#f8f4ea;
+  --clay:#c9a978;
+  --clay-soft:#eadcc1;
+  --moss:#657968;
+  --line-soft:#d7cdbb;
+}
+
+/* ATMÓSFERA GENERAL */
+body{
+  background:
+    radial-gradient(ellipse at 12% 7%,rgba(201,169,120,.13),transparent 24%),
+    radial-gradient(ellipse at 91% 31%,rgba(101,121,104,.11),transparent 25%),
+    radial-gradient(ellipse at 52% 82%,rgba(45,96,117,.07),transparent 30%),
+    var(--bg);
+}
+main{position:relative}
+main:before{
+  content:"";
+  position:absolute;
+  inset:0 8px;
+  pointer-events:none;
+  z-index:-1;
+  background:
+    linear-gradient(90deg,transparent 0 49.8%,rgba(23,33,38,.025) 50%,transparent 50.2%);
+}
+
+/* CABECERA: más identidad de publicación */
+.site-header{
+  position:relative;
+  padding-top:38px;
+  padding-bottom:26px;
+}
+.site-header:after{
+  content:"SAN PATRICIO DEL CHAÑAR  ·  CLUB LOCAL CONTEMPORÁNEO  ·  01";
+  position:absolute;
+  right:22px;
+  bottom:4px;
+  font-size:.48rem;
+  letter-spacing:.18em;
+  color:#8b8376;
+  font-weight:900;
+}
+.brand-mark{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(145deg,#111c20,#29434c);
+  border-radius:17px 17px 17px 5px;
+}
+.brand-mark:after{
+  content:"";
+  position:absolute;
+  width:28px;height:28px;
+  border:1px solid #d9c8a566;
+  border-radius:50%;
+  right:-11px;bottom:-11px;
+}
+.manager-card{
+  position:relative;
+  border-radius:5px 20px 20px 20px;
+}
+.manager-card:after{
+  content:"L";
+  position:absolute;
+  right:16px;
+  bottom:9px;
+  font:500 3.2rem Georgia,serif;
+  color:#ffffff0d;
+}
+
+/* NAVEGACIÓN: placa editorial */
+.rolebar{
+  border-radius:5px 18px 18px 18px;
+  border:1px solid #ffffff14;
+  box-shadow:0 15px 35px #00000020;
+}
+.rolebar:before{
+  content:"OC";
+  display:grid;
+  place-items:center;
+  min-width:28px;
+  height:28px;
+  margin:auto 3px auto 1px;
+  border:1px solid #ffffff30;
+  border-radius:50%;
+  color:#cdbb95;
+  font:700 .55rem Georgia,serif;
+}
+.role{letter-spacing:.01em}
+.role.active{border-radius:11px 11px 11px 4px}
+
+/* HERO: marco, numeración y textura */
+.hero-card{
+  background:
+    linear-gradient(90deg,rgba(201,169,120,.08) 0 4px,transparent 4px),
+    rgba(255,253,248,.94);
+  border-radius:5px 28px 28px 28px;
+  box-shadow:0 24px 70px rgba(42,34,24,.10);
+}
+.hero-card:before{
+  width:3px;
+  background:linear-gradient(var(--gold),transparent 82%);
+}
+.hero-card:after{
+  content:"01";
+  clip-path:none;
+  border:0;
+  box-shadow:none;
+  width:auto;height:auto;
+  right:28px;top:23px;
+  font:700 .58rem Inter,sans-serif;
+  letter-spacing:.18em;
+  color:#9c8b70;
+  opacity:.8;
+}
+.hero-card h2{
+  text-wrap:balance;
+}
+.hero-card h2 span{
+  position:relative;
+  color:var(--blue);
+}
+.hero-card h2 span:after{
+  content:"";
+  position:absolute;
+  left:1px;right:8%;
+  bottom:-5px;
+  height:5px;
+  border-bottom:1px solid var(--gold);
+  border-radius:50%;
+  transform:rotate(-1deg);
+}
+.hero-actions .primary{
+  border-radius:5px 13px 13px 13px;
+}
+.hero-actions .ghost{
+  border-radius:13px 13px 5px 13px;
+}
+
+/* MEMBRESÍA: objeto editorial */
+.membership-card{
+  border-radius:20px 5px 20px 20px;
+  background:
+    radial-gradient(circle at 82% 20%,#d9c8a522 0 1px,transparent 2px),
+    radial-gradient(circle at 70% 30%,#d9c8a514 0 1px,transparent 2px),
+    linear-gradient(145deg,#20333b,#111d22);
+  background-size:17px 17px,23px 23px,auto;
+}
+.membership-card:after{
+  width:220px;height:220px;
+  right:-110px;top:-100px;
+  border:1px solid #d9c8a522;
+  box-shadow:0 0 0 18px #d9c8a50a,0 0 0 36px #d9c8a505;
+}
+.membership-top span:first-child:before{
+  content:"✦ ";
+  color:#d9c8a5;
+}
+.membership-rule:last-child{
+  border-bottom:1px solid #ffffff15;
+}
+
+/* BANDA TERRITORIAL: sensación de afiche/fotografía */
+.territory-band-local{
+  border-radius:28px 5px 28px 28px;
+  box-shadow:0 24px 65px rgba(30,39,37,.14);
+}
+.territory-band-local .territory-photo{
+  background:#26383b;
+}
+.territory-band-local .territory-photo img{
+  filter:saturate(.86) contrast(1.04);
+}
+.territory-band-local .territory-photo:before{
+  content:"";
+  position:absolute;
+  z-index:2;
+  left:18px;top:18px;
+  width:34px;height:34px;
+  border-left:1px solid #fff8;
+  border-top:1px solid #fff8;
+}
+.territory-band-local .territory-photo span{
+  left:20px;bottom:19px;
+  padding:5px 8px;
+  background:#172126bb;
+  backdrop-filter:blur(5px);
+}
+.territory-band-local .territory-copy{
+  background:
+    radial-gradient(circle at 80% 18%,#ffffff0c 0 1px,transparent 2px),
+    linear-gradient(145deg,#17272d,#27434a);
+  background-size:19px 19px,auto;
+  position:relative;
+}
+.territory-band-local .territory-copy:after{
+  content:"RÍO  /  CHACRA  /  BARRIO";
+  position:absolute;
+  right:25px;bottom:20px;
+  writing-mode:vertical-rl;
+  font-size:.48rem;
+  letter-spacing:.2em;
+  color:#d9c8a577;
+  font-weight:900;
+}
+
+/* COMPARTIR: etiqueta de papel */
+.share-strip{
+  border-radius:5px 22px 22px 22px;
+  background:#fdf9ef;
+  box-shadow:0 10px 30px rgba(42,34,24,.055);
+}
+.share-strip:before{height:3px;width:145px}
+.share-strip:after{
+  content:"CLUB / OCARINA";
+  font-family:Georgia,serif;
+}
+.share-actions .primary{border-radius:5px 12px 12px 12px}
+
+/* VIDA DEL CLUB: sistema de tarjetas */
+.life-grid{
+  position:relative;
+}
+.life-grid:before{
+  content:"";
+  position:absolute;
+  left:-8px;top:-13px;
+  width:36px;height:36px;
+  border-left:1px solid var(--gold);
+  border-top:1px solid var(--gold);
+  opacity:.65;
+}
+.life-grid .content-card,
+.life-grid .opportunity-card,
+.life-grid .encounter-card{
+  border-radius:20px 5px 20px 20px;
+  box-shadow:0 14px 35px rgba(42,34,24,.06);
+}
+.life-grid .featured{
+  background:
+    linear-gradient(135deg,#fffdf8 0 72%,#f1e6d3 72% 100%);
+}
+.life-grid .featured:after{
+  content:"“";
+  width:auto;height:auto;
+  border:0;
+  background:none;
+  font:500 5.5rem Georgia,serif;
+  color:#c9a97855;
+  right:18px;top:22px;
+}
+.life-grid .soft{
+  background:#f0f2eb;
+}
+.opportunity-card{
+  background:#f7f0e3!important;
+}
+.encounter-card{
+  background:#e8f0ef!important;
+}
+.label{
+  letter-spacing:.16em;
+  position:relative;
+}
+.label:after{
+  content:"";
+  display:inline-block;
+  width:18px;
+  height:1px;
+  margin-left:7px;
+  vertical-align:middle;
+  background:var(--gold);
+}
+
+/* MANIFIESTO: pieza gráfica */
+.local-story-manifesto{
+  border-radius:5px 28px 28px 28px;
+  box-shadow:0 20px 55px rgba(42,34,24,.08);
+}
+.local-story-manifesto .story-mark{
+  background:
+    radial-gradient(circle at 20% 25%,#ffffff44 0 1px,transparent 2px),
+    radial-gradient(circle at 80% 70%,#17212622 0 1px,transparent 2px),
+    linear-gradient(145deg,#ddcfb0,#b7a680);
+  background-size:23px 23px,31px 31px,auto;
+}
+.local-story-manifesto .story-mark:before{
+  width:210px;height:210px;
+  border-radius:48% 52% 57% 43%;
+  opacity:.45;
+}
+.local-story-manifesto .story-mark b{
+  position:relative;
+  z-index:2;
+  text-shadow:2px 2px 0 #ffffff22;
+}
+.local-story-manifesto .story-mark small{
+  border-top:1px solid #17212655;
+  padding-top:9px;
+}
+.local-story-manifesto .story-copy{
+  background:#f4efe4;
+}
+.local-story-manifesto .story-copy h2{
+  text-wrap:balance;
+}
+.story-tags span{
+  border-radius:4px 999px 999px 999px;
+  background:#fffaf0;
+}
+
+/* PULSO: lámina de archivo */
+.local-pulse{
+  border-radius:28px 5px 28px 28px;
+  background:
+    linear-gradient(90deg,#e6eeeb 0 100%),
+    var(--paper);
+}
+.local-pulse:after{
+  content:"";
+  position:absolute;
+  right:-45px;bottom:-80px;
+  width:220px;height:220px;
+  border:1px solid #5d756822;
+  border-radius:50%;
+  box-shadow:0 0 0 22px #5d75680b,0 0 0 44px #5d756806;
+  pointer-events:none;
+}
+.pulse-grid article{
+  border-radius:5px 17px 17px 17px;
+  min-height:185px;
+  background:#fffdf8;
+  box-shadow:0 7px 22px rgba(42,34,24,.045);
+}
+.pulse-grid article:nth-child(2){transform:translateY(8px)}
+.pulse-grid article:nth-child(3){transform:translateY(-2px)}
+.pulse-grid article:nth-child(4){transform:translateY(10px)}
+.pulse-grid .label{
+  color:var(--moss);
+}
+
+/* BENEFICIOS: más objetos, menos dashboard */
+.benefit-grid{
+  position:relative;
+}
+.benefit-grid > *{
+  border-radius:20px 5px 20px 20px;
+  box-shadow:0 12px 30px rgba(42,34,24,.055);
+}
+.benefit-grid > *:nth-child(odd){
+  transform:rotate(-.35deg);
+}
+.benefit-grid > *:nth-child(even){
+  transform:rotate(.35deg);
+}
+
+/* BLOQUES OSCUROS: tinta impresa */
+.dark-panel,.ally-fast{
+  background:
+    radial-gradient(circle at 85% 20%,#ffffff0b 0 1px,transparent 2px),
+    linear-gradient(145deg,#142329,#263d45);
+  background-size:21px 21px,auto;
+  border-radius:5px 26px 26px 26px;
+}
+.dark-panel{
+  position:relative;
+}
+.dark-panel:after{
+  content:"OC / 01";
+  position:absolute;
+  right:22px;top:20px;
+  color:#d9c8a544;
+  font-size:.52rem;
+  letter-spacing:.16em;
+}
+.principle{
+  border-radius:26px 5px 26px 26px;
+  background:#f3ecdf;
+}
+.inclusion{
+  border-radius:5px 26px 26px 26px;
+  background:#e9efeb;
+}
+
+/* SOCIO: credencial como pieza física */
+.credential{
+  border-radius:5px 24px 24px 24px;
+  background:
+    radial-gradient(circle at 88% 16%,#ffffff10 0 1px,transparent 2px),
+    linear-gradient(145deg,#1b2c32,#2c4a53);
+  background-size:17px 17px,auto;
+  position:relative;
+}
+.credential:before{
+  content:"CLUB";
+  position:absolute;
+  right:22px;top:54px;
+  width:68px;height:68px;
+  border:1px solid #ffffff2b;
+  border-radius:50%;
+  display:grid;place-items:center;
+  font:700 .55rem Georgia,serif;
+  letter-spacing:.18em;
+  color:#d9c8a566;
+}
+.fakeqr{
+  border-radius:4px!important;
+  background:
+    linear-gradient(45deg,#ffffff14 25%,transparent 25% 75%,#ffffff14 75%),
+    linear-gradient(45deg,transparent 25%,#ffffff12 25% 75%,transparent 75%);
+  background-size:10px 10px;
+}
+.member-next{
+  border-radius:5px 16px 16px 16px;
+}
+
+/* ALIADO */
+.ally-fast{
+  border-radius:26px 5px 26px 26px;
+}
+.validator{
+  border-radius:5px 24px 24px 24px!important;
+}
+.validation{
+  border-radius:5px 14px 14px 14px;
+}
+
+/* SUMARSE: cartel humano */
+.contact-card{
+  position:relative;
+  overflow:hidden;
+  border-radius:26px 5px 26px 26px;
+  background:#f1e8d7;
+}
+.contact-card:after{
+  content:"HABLEMOS";
+  position:absolute;
+  right:-15px;bottom:16px;
+  font:700 2.8rem Georgia,serif;
+  color:#17212610;
+  transform:rotate(-8deg);
+}
+.lina-avatar{
+  border-radius:50% 50% 50% 8px;
+  background:#203b45;
+  box-shadow:7px 7px 0 #c9a97866;
+}
+
+/* SEPARADORES: ritmo de revista */
+.section-head{
+  position:relative;
+}
+.section-head .eyebrow:before{
+  content:"— ";
+  color:var(--gold);
+}
+.section-head.compact{
+  padding-left:12px;
+  border-left:2px solid var(--gold);
+}
+.section-kicker{
+  font-size:.55rem!important;
+  letter-spacing:.16em;
+  color:#8a8173!important;
+}
+
+/* FOOTER */
+footer{
+  margin-top:20px;
+  position:relative;
+}
+footer:after{
+  content:"CHAÑAR · ACÁ · ENCUENTRO";
+  display:block;
+  margin-top:20px;
+  font-size:.48rem;
+  letter-spacing:.2em;
+  color:#9b917f;
+}
+.visual-credits{
+  opacity:.88;
+}
+
+/* RESPONSIVE: conservar arte, reducir ruido */
+@media(max-width:850px){
+  .site-header:after{right:16px}
+  .pulse-grid article:nth-child(n){transform:none}
+  .benefit-grid > *{transform:none}
+  .territory-band-local .territory-copy:after{display:none}
+}
+@media(max-width:620px){
+  .site-header:after{display:none}
+  main:before{display:none}
+  .hero-card{border-radius:5px 20px 20px 20px}
+  .hero-card:after{right:20px;top:19px}
+  .hero-card h2 span:after{bottom:-3px}
+  .territory-band-local{border-radius:20px 5px 20px 20px}
+  .territory-band-local .territory-photo:before{left:12px;top:12px}
+  .territory-band-local .territory-photo span{left:13px;bottom:13px}
+  .local-story-manifesto{border-radius:5px 20px 20px 20px}
+  .local-story-manifesto .story-mark{min-height:175px}
+  .local-pulse{border-radius:20px 5px 20px 20px}
+  .pulse-grid article{min-height:0}
+  .dark-panel,.ally-fast{border-radius:5px 20px 20px 20px}
+  .credential,.contact-card{border-radius:20px 5px 20px 20px}
+}
