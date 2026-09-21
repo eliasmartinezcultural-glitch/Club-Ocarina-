@@ -1529,3 +1529,552 @@ footer:before{
 @media(prefers-reduced-motion:reduce){
   .benefit,.content-card,.opportunity-card,.encounter-card{transition:none}
 }
+
+
+/* V3.1.4 · SISTEMA VISUAL ILUSTRADO OCARINA · SOLO ESTÉTICA
+   Segunda expansión: marcos, personajes, paisaje, sellos, textura y ritmo.
+*/
+
+/* LIENZO GENERAL: sensación de cuaderno editorial */
+body{
+  background:
+    radial-gradient(circle at 15% 8%,#fffdf6 0 1px,transparent 2px),
+    radial-gradient(circle at 78% 31%,#23333b08 0 1px,transparent 2px),
+    radial-gradient(circle at 42% 82%,#b4935c08 0 1px,transparent 2px),
+    radial-gradient(circle at 8% 0,#fffaf1 0,transparent 29%),
+    radial-gradient(circle at 92% 18%,#e9f0ef 0,transparent 23%),
+    var(--bg);
+  background-size:29px 29px,37px 37px,43px 43px,auto,auto,auto;
+}
+main{
+  position:relative;
+}
+main:before,
+main:after{
+  content:"";
+  position:absolute;
+  pointer-events:none;
+  z-index:-1;
+}
+main:before{
+  width:280px;height:280px;
+  left:-150px;top:120px;
+  border:1px solid #557d8312;
+  border-radius:50%;
+  box-shadow:0 0 0 28px #557d8307,0 0 0 58px #557d8304;
+}
+main:after{
+  width:230px;height:230px;
+  right:-125px;top:780px;
+  border:1px dashed #b4935c16;
+  border-radius:50%;
+}
+
+/* MARCA: emblema dibujado */
+.brand-mark{
+  position:relative;
+  overflow:visible;
+  transform:rotate(-1deg);
+}
+.brand-mark:before{
+  width:29px;height:12px;
+  left:7px;bottom:6px;
+  border-bottom:2px solid var(--oc-sun);
+  border-left:1px solid var(--oc-sun);
+  transform:rotate(-8deg);
+}
+.brand-mark:after{
+  content:"";
+  position:absolute;
+  width:27px;height:27px;
+  right:-9px;bottom:-9px;
+  border:1px solid #d9c8a555;
+  border-radius:50%;
+  box-shadow:inset 0 0 0 5px #ffffff08;
+}
+
+/* ENCABEZADO: banda editorial + pequeñas marcas */
+.site-header{
+  position:relative;
+}
+.site-header:after{
+  content:"O / C / C";
+  position:absolute;
+  right:22px;bottom:3px;
+  font-size:.48rem;
+  letter-spacing:.38em;
+  color:#8a817355;
+  font-weight:900;
+}
+.site-header .brand{
+  position:relative;
+}
+.site-header .brand:after{
+  left:82px;top:78px;
+  width:60px;height:20px;
+  border-bottom:1px solid var(--oc-water);
+  border-radius:50%;
+  transform:rotate(-7deg);
+}
+.site-header .eyebrow{
+  position:relative;
+}
+.site-header .eyebrow:after{
+  content:"✦";
+  margin-left:7px;
+  color:var(--gold);
+  font-size:.58rem;
+}
+
+/* PANEL DE GERENCIA: retrato simbólico */
+.manager-card{
+  position:relative;
+  overflow:hidden;
+  border-radius:5px 20px 20px 20px;
+  background:
+    radial-gradient(circle at 84% 18%,#ffffff0b 0 1px,transparent 2px),
+    linear-gradient(145deg,#172126,#29434c);
+  background-size:18px 18px,auto;
+}
+.manager-card:before{
+  width:23px;height:23px;
+  right:21px;top:20px;
+  box-shadow:0 29px 0 8px #d9c8a522;
+}
+.manager-card:after{
+  content:"L";
+  position:absolute;
+  right:20px;bottom:14px;
+  color:#d9c8a577;
+  font:700 .6rem Georgia,serif;
+  letter-spacing:.1em;
+}
+
+/* NAVEGACIÓN: pequeños separadores de cuaderno */
+.rolebar{
+  border-radius:5px 18px 18px 18px;
+}
+.role{
+  position:relative;
+}
+.role.active:after{
+  content:"";
+  position:absolute;
+  left:18%;right:18%;bottom:4px;
+  height:1px;
+  background:var(--gold);
+}
+
+/* HERO: ilustración narrativa */
+.hero-card{
+  position:relative;
+  border-radius:5px 28px 28px 28px;
+  background:
+    radial-gradient(circle at 88% 18%,#d8bc7814 0 42px,transparent 43px),
+    linear-gradient(135deg,#fffdf8 0 68%,#eef2ee 68% 100%);
+}
+.hero-card:before{
+  right:20px;bottom:18px;
+  width:170px;height:95px;
+  background:
+    radial-gradient(ellipse at 73% 20%,#d8bc7850 0 15px,transparent 16px),
+    linear-gradient(166deg,transparent 47%,#557d8335 48% 50%,transparent 51%),
+    linear-gradient(176deg,transparent 59%,#66795f45 60% 63%,transparent 64%),
+    linear-gradient(170deg,transparent 72%,#b79b6c45 73% 75%,transparent 76%);
+}
+.hero-card:after{
+  width:68px;height:68px;
+  right:27px;top:20px;
+  border:1px solid #b4935c66;
+  box-shadow:0 0 0 9px #d8bc7810,0 0 0 19px #d8bc7807;
+}
+.hero-card h2{
+  position:relative;
+  z-index:2;
+}
+.hero-card h2:after{
+  width:240px;height:74px;
+  right:5px;bottom:-43px;
+  border-top:2px solid #557d8328;
+}
+.hero-route span{
+  border-radius:5px 999px 999px 999px;
+  background:#f7f2e8;
+}
+.trust-row span{
+  position:relative;
+}
+.trust-row span:before{
+  content:"·";
+  margin-right:5px;
+  color:var(--gold);
+}
+
+/* RUTA VISUAL: pasos como pequeñas estampas */
+.hero-route span:nth-child(1){transform:rotate(-1deg)}
+.hero-route span:nth-child(2){transform:rotate(.7deg)}
+.hero-route span:nth-child(3){transform:rotate(-.5deg)}
+.hero-route span b{
+  display:inline-grid;
+  place-items:center;
+  width:18px;height:18px;
+  border:1px solid #b4935c77;
+  border-radius:50%;
+  margin-right:4px;
+}
+
+/* TARJETA DE MEMBRESÍA: objeto coleccionable */
+.membership-card{
+  border-radius:5px 26px 26px 26px;
+  background:
+    radial-gradient(circle at 83% 17%,#ffffff0a 0 2px,transparent 3px),
+    linear-gradient(145deg,#17282f,#284650);
+  background-size:22px 22px,auto;
+}
+.membership-card:before{
+  content:"OC";
+  position:absolute;
+  right:24px;bottom:22px;
+  width:67px;height:67px;
+  border:1px solid #d9c8a555;
+  border-radius:50%;
+  display:grid;place-items:center;
+  color:#d9c8a5;
+  font:700 .58rem Georgia,serif;
+  letter-spacing:.18em;
+  box-shadow:inset 0 0 0 5px #ffffff06;
+}
+.membership-card:after{
+  width:190px;height:190px;
+  right:-95px;top:-83px;
+  border-color:#d9c8a526;
+}
+.membership-top:before{
+  content:"✦";
+  color:var(--oc-sun);
+  margin-right:7px;
+}
+.price{
+  position:relative;
+}
+.price:after{
+  content:"POR MES";
+  position:absolute;
+  left:4px;bottom:-14px;
+  font:700 .43rem Inter,sans-serif;
+  letter-spacing:.18em;
+  color:#d9c8a566;
+}
+
+/* BENEFICIOS: cuatro pequeñas piezas ilustradas */
+.benefit-grid{
+  align-items:stretch;
+}
+.benefit{
+  position:relative;
+  min-height:190px;
+  overflow:hidden;
+}
+.benefit:before{
+  content:"";
+  position:absolute;
+  right:-18px;bottom:-25px;
+  width:85px;height:85px;
+  border:1px solid #b4935c22;
+  border-radius:50%;
+}
+.benefit:nth-child(1){background:linear-gradient(145deg,#fffdf8,#f1eee5)}
+.benefit:nth-child(2){background:linear-gradient(145deg,#f4f1e7,#e9efea)}
+.benefit:nth-child(3){background:linear-gradient(145deg,#fffaf0,#f2e7d7)}
+.benefit:nth-child(4){background:linear-gradient(145deg,#f0f3ef,#e8eeee)}
+.benefit .icon{
+  box-shadow:4px 4px 0 #b4935c22;
+}
+
+/* VIDA: personajes y pequeñas escenas */
+.life-grid .content-card:before,
+.life-grid .opportunity-card:before,
+.life-grid .encounter-card:before{
+  content:"";
+  position:absolute;
+  right:20px;top:20px;
+  width:38px;height:38px;
+  border:1px solid #1721261c;
+  border-radius:50%;
+}
+.life-grid .content-card:before{
+  box-shadow:9px 15px 0 -6px var(--oc-water);
+}
+.life-grid .opportunity-card:before{
+  box-shadow:9px 15px 0 -6px var(--oc-leaf);
+}
+.life-grid .encounter-card:before{
+  box-shadow:9px 15px 0 -6px var(--oc-red);
+}
+.life-grid .content-card:after,
+.life-grid .opportunity-card:after,
+.life-grid .encounter-card:after{
+  right:30px;bottom:18px;
+  width:9px;height:9px;
+  box-shadow:none;
+}
+.life-grid .content-card{
+  background:
+    linear-gradient(145deg,#fffdf8,#f1e6d3)!important;
+}
+.life-grid .opportunity-card{
+  background:
+    linear-gradient(145deg,#fffaf1,#eee4d1)!important;
+}
+.life-grid .encounter-card{
+  background:
+    linear-gradient(145deg,#eaf2ef,#dce9e5)!important;
+}
+
+/* CAMINO ENTRE LAS ESCENAS */
+.life-grid:after{
+  width:150px;height:100px;
+  right:5px;top:39%;
+  border-top:1px dashed #b4935c55;
+  border-radius:50%;
+  transform:rotate(-12deg);
+}
+
+/* TERRITORIO: cartel ilustrado alrededor de la fotografía */
+.territory-band-local{
+  border-radius:5px 28px 28px 28px;
+}
+.territory-band-local .territory-copy{
+  position:relative;
+  overflow:hidden;
+}
+.territory-band-local .territory-copy:before{
+  content:"";
+  position:absolute;
+  width:90px;height:90px;
+  right:-25px;top:-25px;
+  border:1px solid #ffffff17;
+  border-radius:50%;
+  box-shadow:0 0 0 12px #ffffff08,0 0 0 25px #ffffff04;
+}
+.territory-band-local .territory-photo{
+  position:relative;
+}
+.territory-band-local .territory-photo:after{
+  background:
+    linear-gradient(180deg,#17212608 40%,#172126aa),
+    linear-gradient(90deg,#17212612,transparent 35%,#17212638);
+}
+.territory-band-local .territory-photo span{
+  border-radius:4px 999px 999px 999px;
+}
+
+/* MANIFIESTO: paisaje ilustrado más rico */
+.local-story-manifesto .story-mark{
+  position:relative;
+  background:
+    radial-gradient(circle at 22% 24%,#fff8 0 1px,transparent 2px),
+    radial-gradient(circle at 78% 70%,#17212620 0 1px,transparent 2px),
+    linear-gradient(145deg,#e0d3b7,#aa9978)!important;
+  background-size:21px 21px,31px 31px,auto;
+}
+.local-story-manifesto .story-mark:before{
+  content:"";
+  position:absolute;
+  right:-15px;top:15px;
+  width:270px;height:205px;
+  background:
+    radial-gradient(circle at 70% 20%,#d8bc78aa 0 25px,transparent 26px),
+    linear-gradient(164deg,transparent 46%,#557d835e 47% 52%,transparent 53%),
+    linear-gradient(173deg,transparent 59%,#66795f70 60% 66%,transparent 67%),
+    linear-gradient(177deg,transparent 72%,#7d6847a8 73% 76%,transparent 77%);
+}
+.local-story-manifesto .story-mark:after{
+  width:190px;height:75px;
+  right:28px;top:105px;
+  border-top:1px solid #17212655;
+  border-radius:50%;
+  box-shadow:0 15px 0 -0.2px #17212628,0 30px 0 -0.2px #1721261b;
+}
+
+/* PULSO: más parecido a uma lâmina cartográfica */
+.local-pulse{
+  position:relative;
+  overflow:hidden;
+  background:
+    linear-gradient(#5d75680b 1px,transparent 1px),
+    linear-gradient(90deg,#5d75680b 1px,transparent 1px),
+    #eef2ef;
+  background-size:28px 28px;
+}
+.local-pulse .section-head{
+  position:relative;
+  z-index:3;
+}
+.pulse-grid article{
+  position:relative;
+  overflow:hidden;
+}
+.pulse-grid article:after{
+  content:"";
+  position:absolute;
+  left:-20px;bottom:13px;
+  width:95px;height:22px;
+  border-top:1px solid #557d8335;
+  border-radius:50%;
+  transform:rotate(-8deg);
+}
+
+/* PASOS: pequeñas huellas */
+.steps div:before{
+  content:"";
+  position:absolute;
+  left:11px;top:12px;
+  width:7px;height:11px;
+  border-radius:50%;
+  background:#d9c8a566;
+  transform:rotate(22deg);
+}
+.steps div:nth-child(even):before{transform:rotate(-18deg);top:17px}
+.steps div b{padding-left:25px}
+
+/* PRINCIPIO: sello y papel envejecido */
+.principle{
+  background:
+    radial-gradient(circle at 80% 25%,#b4935c10 0 2px,transparent 3px),
+    #f3ecdf;
+  background-size:25px 25px;
+}
+.principle:before{
+  content:"";
+  position:absolute;
+  left:22px;bottom:18px;
+  width:100px;height:1px;
+  background:#b4935c55;
+  transform:rotate(-3deg);
+}
+
+/* CREDENCIAL: más gráfica */
+.credential{
+  overflow:hidden;
+}
+.credential:after{
+  width:74px;height:74px;
+  border-style:dashed;
+  color:#d9c8a577;
+}
+.credential-number{
+  position:relative;
+  z-index:2;
+}
+.credential-number:before{
+  content:"#";
+  color:#d9c8a555;
+  font-size:1.5rem;
+  vertical-align:top;
+  margin-right:3px;
+}
+.fakeqr:before{
+  content:"";
+}
+
+/* ALIADO: placa de orientación */
+.ally-fast{
+  min-height:145px;
+}
+.ally-fast:before{
+  content:"OC / ALIADOS";
+  position:absolute;
+  left:25px;top:18px;
+  color:#d9c8a533;
+  font-size:.45rem;
+  letter-spacing:.18em;
+}
+.ally-fast:after{
+  content:"↗  ↗  ↗";
+}
+
+/* CONTACTO: cartel humano */
+.contact-card{
+  min-height:360px;
+}
+.contact-card:before{
+  width:31px;height:31px;
+  right:27px;top:25px;
+  box-shadow:0 39px 0 10px #203b4520;
+}
+.contact-card .lina-avatar{
+  position:relative;
+}
+.contact-card .lina-avatar:before{
+  content:"";
+  position:absolute;
+  left:-9px;bottom:-8px;
+  width:27px;height:1px;
+  background:#c9a978;
+  transform:rotate(10deg);
+}
+.contact-card .lina-avatar:after{
+  width:35px;height:1px;
+  right:-15px;bottom:-10px;
+}
+
+/* FORMULARIO: papelería de Ocarina */
+.input-row input{
+  box-shadow:inset 0 1px 0 #fff,0 5px 14px #2a22100a;
+}
+.input-row .primary{
+  border-radius:5px 12px 12px 12px;
+}
+.validation.good{
+  background:
+    radial-gradient(circle at 90% 20%,#4d765c12 0 25px,transparent 26px),
+    #edf6ef;
+}
+
+/* MICROGRÁFICA: numeración editorial de secciones */
+.section-head{
+  counter-increment:oc-section;
+}
+main{
+  counter-reset:oc-section;
+}
+.section-head h2:before{
+  content:"0" counter(oc-section) "  ";
+  color:#b4935c66;
+  font:700 .42em Inter,sans-serif;
+  letter-spacing:.08em;
+  vertical-align:middle;
+}
+
+/* DECORACIÓN DE BORDE */
+.hero-card,
+.membership-card,
+.panel,
+.content-card,
+.opportunity-card,
+.encounter-card,
+.credential,
+.principle,
+.inclusion,
+.contact-card,
+.ally-fast,
+.local-pulse{
+  box-shadow:
+    0 18px 55px rgba(42,34,24,.07),
+    0 1px 0 #ffffffaa inset;
+}
+
+/* MOBILE: ilustración compacta */
+@media(max-width:620px){
+  main:before,main:after{display:none}
+  .site-header:after{display:none}
+  .hero-card{background:linear-gradient(145deg,#fffdf8 0 78%,#eef2ee 78% 100%)}
+  .hero-card:before{width:120px;height:70px;right:5px;bottom:12px}
+  .hero-card:after{width:48px;height:48px;right:16px;top:17px}
+  .benefit{min-height:165px}
+  .local-story-manifesto .story-mark:before{width:210px;height:155px;right:-35px}
+  .contact-card{min-height:320px}
+}
+
+/* V3.1.4 · FIN */
