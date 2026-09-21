@@ -246,3 +246,299 @@ html{scroll-padding-top:92px}
  .local-story-manifesto .story-mark b{font-size:4.4rem}
  .local-story-manifesto .story-copy{padding:23px 20px}
 }
+
+
+/* V3.1.2 · CAPA ESTÉTICA ARTESANAL · SOLO VISUAL · SIN CAMBIOS FUNCIONALES
+   Dirección: papel + tinta + territorio + pequeñas ilustraciones editoriales.
+   No reemplaza fotografía real ni agrega contenido interactivo.
+*/
+:root{
+  --paper-noise:rgba(23,33,38,.045);
+  --ink-soft:#33444a;
+  --sand:#d9c8a5;
+  --sand2:#efe5d2;
+  --sage:#71846f;
+}
+
+/* textura editorial: muy sutil, sin imagen externa */
+body{
+  background:
+    radial-gradient(circle at 14% 18%,rgba(180,147,92,.08) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 82% 68%,rgba(45,96,117,.055) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 35% 90%,rgba(23,33,38,.035) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 8% 0,#fffaf1 0,transparent 29%),
+    radial-gradient(circle at 92% 18%,#e9f0ef 0,transparent 23%),
+    var(--bg);
+  background-size:19px 19px,27px 27px,31px 31px,auto,auto,auto;
+}
+body:before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:40;
+  opacity:.24;
+  background-image:
+    repeating-linear-gradient(0deg,transparent 0 3px,var(--paper-noise) 4px),
+    repeating-linear-gradient(90deg,transparent 0 5px,rgba(180,147,92,.018) 6px);
+  mix-blend-mode:multiply;
+}
+
+/* pequeño sistema de ilustración editorial */
+.hero-card:after{
+  content:"";
+  position:absolute;
+  right:28px;
+  top:25px;
+  width:86px;
+  height:86px;
+  opacity:.48;
+  border:1px solid var(--gold);
+  border-radius:58% 42% 62% 38%;
+  transform:rotate(17deg);
+  box-shadow:
+    18px 8px 0 -17px var(--gold),
+    31px 24px 0 -17px var(--gold),
+    10px 39px 0 -17px var(--gold);
+}
+.hero-card:after{
+  clip-path:polygon(48% 0,53% 0,55% 100%,48% 100%);
+}
+
+/* marco y gesto dibujado alrededor de la única foto */
+.territory-band-local{
+  isolation:isolate;
+}
+.territory-band-local:before{
+  content:"";
+  position:absolute;
+  z-index:3;
+  left:13px;
+  top:13px;
+  width:74px;
+  height:74px;
+  border-left:1px solid #fff9;
+  border-top:1px solid #fff9;
+  border-radius:20px 0 0 0;
+  pointer-events:none;
+}
+.territory-band-local:after{
+  content:"";
+  position:absolute;
+  z-index:3;
+  right:16px;
+  bottom:15px;
+  width:54px;
+  height:54px;
+  border-right:1px solid #fff7;
+  border-bottom:1px solid #fff7;
+  border-radius:0 0 18px 0;
+  pointer-events:none;
+}
+
+/* sello editorial */
+.membership-card:before{
+  content:"CHAÑAR · CLUB";
+  position:absolute;
+  right:19px;
+  bottom:17px;
+  width:72px;
+  height:72px;
+  border:1px solid #ffffff35;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  text-align:center;
+  color:#d9c8a5;
+  font-size:.5rem;
+  line-height:1.15;
+  letter-spacing:.12em;
+  font-weight:900;
+  transform:rotate(-11deg);
+  opacity:.72;
+}
+
+/* pequeñas líneas manuscritas / cartográficas */
+.section-head h2,
+.local-pulse .section-head h2{
+  position:relative;
+}
+.section-head h2:after{
+  content:"";
+  display:block;
+  width:72px;
+  height:7px;
+  margin-top:9px;
+  border-bottom:1px solid var(--gold);
+  border-radius:50%;
+  transform:rotate(-1.5deg);
+  opacity:.7;
+}
+
+/* tarjetas como fichas de cuaderno, sin efecto app */
+.life-grid .content-card,
+.life-grid .opportunity-card,
+.life-grid .encounter-card{
+  position:relative;
+  overflow:hidden;
+}
+.life-grid .content-card:before,
+.life-grid .opportunity-card:before,
+.life-grid .encounter-card:before{
+  content:"";
+  position:absolute;
+  width:52px;
+  height:1px;
+  right:20px;
+  top:20px;
+  background:var(--gold);
+  transform:rotate(-7deg);
+  opacity:.65;
+}
+.life-grid .content-card:after{
+  content:"";
+  position:absolute;
+  width:8px;
+  height:8px;
+  right:20px;
+  top:15px;
+  border:1px solid var(--gold);
+  border-radius:50%;
+  background:var(--paper);
+}
+
+/* ilustración botánica mínima: chañar / rama */
+.local-story-manifesto{
+  position:relative;
+  overflow:hidden;
+}
+.local-story-manifesto .story-mark{
+  position:relative;
+  isolation:isolate;
+}
+.local-story-manifesto .story-mark:before,
+.local-story-manifesto .story-mark:after{
+  content:"";
+  position:absolute;
+  pointer-events:none;
+}
+.local-story-manifesto .story-mark:before{
+  width:150px;
+  height:150px;
+  right:-36px;
+  top:-36px;
+  border:1px solid #17212635;
+  border-radius:48% 52% 57% 43%;
+  transform:rotate(27deg);
+}
+.local-story-manifesto .story-mark:after{
+  width:105px;
+  height:1px;
+  right:12px;
+  top:72px;
+  background:#17212655;
+  transform:rotate(-31deg);
+  box-shadow:
+    -18px 13px 0 -0.2px #17212633,
+    -37px 25px 0 -0.2px #17212633,
+    -54px 37px 0 -0.2px #17212633;
+}
+
+/* cápsulas territoriales con apariencia de cuaderno */
+.local-pulse{
+  position:relative;
+  overflow:hidden;
+}
+.local-pulse:before{
+  content:"RÍO · CHACRA · BARDA · BARRIO";
+  position:absolute;
+  right:24px;
+  top:20px;
+  color:#5d7568;
+  font-size:.54rem;
+  letter-spacing:.16em;
+  font-weight:900;
+  opacity:.65;
+}
+.pulse-grid article{
+  position:relative;
+}
+.pulse-grid article:after{
+  content:"";
+  position:absolute;
+  left:18px;
+  bottom:13px;
+  width:30px;
+  height:1px;
+  background:#b4935c88;
+  transform:rotate(-4deg);
+}
+
+/* cinta de papel en compartir */
+.share-strip{
+  position:relative;
+  overflow:hidden;
+}
+.share-strip:before{
+  content:"";
+  position:absolute;
+  left:-20px;
+  top:0;
+  width:130px;
+  height:2px;
+  background:var(--gold);
+  transform:rotate(-1deg);
+  opacity:.55;
+}
+.share-strip:after{
+  content:"OCARINA";
+  position:absolute;
+  right:18px;
+  top:13px;
+  color:#b4935c;
+  font-family:Georgia,serif;
+  font-size:.55rem;
+  letter-spacing:.2em;
+  opacity:.65;
+}
+
+/* footer más editorial */
+footer{
+  position:relative;
+}
+footer:before{
+  content:"";
+  display:block;
+  width:100%;
+  max-width:260px;
+  height:1px;
+  margin:0 auto 20px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+}
+
+/* movimientos mínimos y elegantes; nada esencial depende de ellos */
+@media(hover:hover) and (pointer:fine){
+  .territory-band-local .territory-photo img{
+    transition:transform .55s ease,filter .35s ease;
+  }
+  .territory-band-local:hover .territory-photo img{
+    transform:scale(1.015);
+    filter:saturate(.96) contrast(1.02);
+  }
+}
+
+/* mobile: la decoración se retrae para no competir con lectura */
+@media(max-width:620px){
+  body:before{opacity:.15}
+  .hero-card:after{right:17px;top:19px;width:54px;height:54px;opacity:.3}
+  .membership-card:before{width:58px;height:58px;right:14px;bottom:13px;font-size:.43rem}
+  .section-head h2:after{width:52px}
+  .local-pulse:before{position:static;display:block;margin-bottom:12px}
+  .share-strip:after{display:none}
+  .territory-band-local:before{width:48px;height:48px}
+  .territory-band-local:after{width:38px;height:38px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .territory-band-local .territory-photo img{transition:none}
+}
