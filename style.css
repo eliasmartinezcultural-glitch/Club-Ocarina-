@@ -2722,3 +2722,204 @@ main > *{position:relative;z-index:1}
 }
 
 /* V3.1.6 · FIN */
+
+
+/* =====================================================================
+   CLUB OCARINA · V3.1.6 · FINAL LOCK
+   ESTADO: CONGELADA · UNIFICADA · SOLO VISUAL
+   Esta capa cierra la edición 3.1.6.
+   No agregar nuevas reglas de diseño encima sin abrir una nueva versión.
+   No modifica HTML, JS, estructura, rutas, datos, pagos ni lógica.
+   ===================================================================== */
+
+/* A. ORDEN DE CAPAS: decoración siempre detrás del contenido */
+.site-header,
+.territory-band,
+.hero-card,
+.membership-card,
+.benefit,
+.life-grid,
+.content-card,
+.opportunity-card,
+.encounter-card,
+.local-story,
+.local-pulse,
+.panel,
+.principle,
+.inclusion,
+.credential,
+.ally-fast,
+.contact-card,
+.share-strip{
+  isolation:isolate;
+}
+
+/* B. PSEUDOELEMENTOS DECORATIVOS: nunca interceptan interacción */
+.site-header:before,
+main:after,
+.hero-card:before,
+.hero-card:after,
+.hero-card h2:after,
+.membership-card:before,
+.membership-card:after,
+.benefit:before,
+.benefit:after,
+.life-grid:before,
+.life-grid:after,
+.content-card:before,
+.content-card:after,
+.opportunity-card:before,
+.opportunity-card:after,
+.encounter-card:before,
+.encounter-card:after,
+.territory-band:before,
+.territory-copy:after,
+.territory-photo:before,
+.territory-photo:after,
+.story-photo:before,
+.story-photo:after,
+.hero-route:after,
+.manager-card:before,
+.manager-card:after,
+.contact-card:before,
+.contact-card:after,
+.local-story:before,
+.local-story:after,
+.local-pulse:before,
+.local-pulse:after{
+  pointer-events:none;
+}
+
+/* C. CONTENIDO SIEMPRE POR ENCIMA DE LA ILUSTRACIÓN */
+.hero-card > *,
+.membership-card > *,
+.benefit > *,
+.content-card > *,
+.opportunity-card > *,
+.encounter-card > *,
+.territory-copy > *,
+.territory-photo > *,
+.story-copy > *,
+.local-pulse > *,
+.panel > *,
+.principle > *,
+.inclusion > *,
+.credential > *,
+.contact-card > *,
+.ally-fast > *{
+  position:relative;
+  z-index:2;
+}
+
+/* D. TERRITORIO: patrón sutil, nunca tapa la fotografía */
+.territory-band:before{
+  z-index:1;
+}
+.territory-band > *{
+  position:relative;
+  z-index:2;
+}
+.territory-photo img{
+  z-index:0;
+}
+.territory-photo:after{
+  z-index:1;
+}
+.territory-photo:before{
+  z-index:3;
+}
+
+/* E. FOTOGRAFÍAS: marco interior estable */
+.story-photo,
+.territory-photo{
+  isolation:isolate;
+}
+.story-photo img,
+.territory-photo img{
+  position:absolute;
+  inset:0;
+}
+.story-photo:before,
+.territory-photo:before{
+  z-index:3;
+}
+
+/* F. PERSONAJES: no desplazar texto ni controles */
+.manager-card:before,
+.manager-card:after,
+.contact-card:before,
+.contact-card:after{
+  z-index:1;
+}
+.manager-card > *,
+.contact-card > *{
+  z-index:2;
+}
+
+/* G. MARCA: el símbolo acompaña la marca tipográfica */
+.brand-mark:before,
+.brand-mark:after{
+  z-index:1;
+}
+.brand-mark span{
+  z-index:2;
+}
+
+/* H. RUTA: el trazo queda fuera de la lectura principal */
+.hero-route:after{
+  z-index:0;
+}
+.hero-route > *{
+  position:relative;
+  z-index:1;
+}
+
+/* I. PAPEL: textura extremadamente discreta */
+.hero-card,
+.panel,
+.principle,
+.inclusion,
+.local-pulse,
+.share-strip{
+  background-blend-mode:normal;
+}
+
+/* J. FIRMA FIJA: bajar todavía más su presencia */
+main:after{
+  opacity:.55;
+}
+
+/* K. MOBILE: eliminar cualquier posibilidad de saturación */
+@media(max-width:560px){
+  main:after{
+    opacity:.38;
+    pointer-events:none;
+  }
+  .site-header:before{
+    pointer-events:none;
+  }
+  .territory-band:before{
+    opacity:.20;
+  }
+  .territory-copy:after{
+    opacity:.75;
+  }
+}
+
+/* L. ACCESIBILIDAD: decoración desaparece antes que el contenido */
+@media(prefers-reduced-motion:reduce){
+  .site-header:before,
+  main:after{
+    display:none;
+  }
+}
+
+/* M. IDENTIFICACIÓN OFICIAL DE LA EDICIÓN */
+body:after{
+  content:"";
+  display:block;
+  width:0;
+  height:0;
+}
+
+/* V3.1.6 · FINAL LOCK · FIN */
