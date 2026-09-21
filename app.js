@@ -9,7 +9,17 @@ function row(b,ally=false){const r=remaining(b),disabled=r===0;return `<div clas
 function bind(){document.querySelectorAll("[data-use]").forEach(x=>x.onclick=()=>{const b=DATA.benefits.find(v=>v.id===x.dataset.use);if(!b||remaining(b)<=0)return;state.uses[b.id]=used(b.id)+1;save();render();renderAlly()})}
 function render(){document.getElementById("homeBenefits").innerHTML=DATA.benefits.map(b=>`<article class="benefit"><div class="icon">${b.icon}</div><strong>${b.name}</strong><p>${b.detail}</p><small>${b.limit}</small></article>`).join("");document.getElementById("memberBenefits").innerHTML=DATA.benefits.map(b=>row(b)).join("");document.getElementById("allyList").innerHTML=DATA.allies.map(x=>`<li>${x}</li>`).join("");bind()}
 function renderAlly(){document.getElementById("allyBenefits").innerHTML=DATA.benefits.map(b=>row(b,true)).join("");bind()}
-function show(id){document.querySelectorAll(".role").forEach(x=>x.classList.toggle("active",x.dataset.view===id));document.querySelectorAll(".view").forEach(x=>x.classList.toggle("active",x.id===id));scrollTo({top:0,behavior:"smooth"});if(id==="ally")renderAlly()}
+function show(id,push=true){
+  const target=document.getElementById(id);
+  if(!target)return;
+  document.querySelectorAll(".role").forEach(x=>x.classList.toggle("active",x.dataset.view===id));
+  document.querySelectorAll(".view").forEach(x=>x.classList.toggle("active",x.id===id));
+  if(push) history.replaceState(null,"","#"+id);
+  window.scrollTo({top:0,behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+  if(id==="ally")renderAlly();
+  const heading=target.querySelector("h2");
+  if(heading){heading.setAttribute("tabindex","-1");heading.focus({preventScroll:true});}
+}
 document.querySelectorAll(".role").forEach(x=>x.onclick=()=>show(x.dataset.view));document.querySelectorAll("[data-go]").forEach(x=>x.onclick=()=>show(x.dataset.go));
 document.getElementById("validate").onclick=()=>{const v=document.getElementById("memberInput").value.trim().replace(/\D/g,""),box=document.getElementById("validationResult");if(v===DEMO_MEMBER){box.className="validation good";box.innerHTML="<b>● SOCIO ACTIVO</b><span>María Ejemplo · socio 0027</span><small>Seleccioná el beneficio.</small>";renderAlly()}else{box.className="validation bad";box.innerHTML="<b>● NO VALIDADO</b><span>No encontramos un socio activo.</span><small>También podés validar por nombre + número.</small>";document.getElementById("allyBenefits").innerHTML=""}};
 document.getElementById("contactLina").onclick=()=>{const msg="Hola Lina, quiero consultar por Club Ocarina y conocer cómo asociarme o renovar mi membresía.";window.open("https://wa.me/"+LINA_WHATSAPP+"?text="+encodeURIComponent(msg),"_blank","noopener,noreferrer")};
@@ -24,3 +34,7 @@ document.getElementById("shareClub")?.addEventListener("click",async()=>{
   if(navigator.share){try{await navigator.share({title:"Club Ocarina · San Patricio del Chañar",text:CLUB_SHARE_TEXT,url:CLUB_URL});setShareStatus("Compartido.");}catch(e){if(e?.name!=="AbortError")setShareStatus("Podés usar WhatsApp o copiar el enlace.");}}
   else{try{await navigator.clipboard.writeText(CLUB_URL);setShareStatus("Enlace copiado. Ya podés pegarlo en tu red social.");}catch(e){setShareStatus("Usá WhatsApp o copiá el enlace desde el navegador.");}}
 });
+
+const initialView=location.hash.replace("#","");
+if(["home","member","ally","join"].includes(initialView)) show(initialView,false);
+window.addEventListener("popstate",()=>{const id=location.hash.replace("#","");show(["home","member","ally","join"].includes(id)?id:"home",false);});
