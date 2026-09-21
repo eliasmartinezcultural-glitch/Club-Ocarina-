@@ -88,3 +88,82 @@ La experiencia debe conservar:
 ## Próximo piso
 
 V3.1 queda como base para la **operación real de Lina**. No se incorporan funciones nuevas a la fachada salvo que una prueba real demuestre una falla de uso, accesibilidad o seguridad.
+
+
+---
+
+# V3.1.2 · FACHADA CURADA Y PISO FUNCIONAL PENSADO
+
+**Estado: BLOQUEADO — V3.1.2**
+
+V3.1.2 no agrega funcionalidades de producto. Es una curaduría profunda de la fachada V3.1: ordena la primera impresión, corrige la jerarquía visual y deja una base bonita, sobria, local y mantenible.
+
+## Propósito
+
+Que una persona que nunca escuchó hablar del Club pueda abrirlo y entender rápidamente:
+
+**qué es → dónde nace → para qué existe → cómo participar.**
+
+## Contrato visual
+
+1. Una sola fotografía local acreditada en la fachada pública.
+2. No repetir la misma fotografía como relleno.
+3. No usar stock genérico para representar Chañar.
+4. No fabricar paisajes mediante CSS para aparentar fotografía territorial.
+5. El territorio se expresa con lenguaje, escala, color, contenido y una fotografía real; no con decoración excesiva.
+6. La fotografía acompaña al Club: no reemplaza la propuesta.
+7. El encuentro humano debe aparecer en el lenguaje y en la arquitectura, aunque todavía no haya fotografías propias de personas.
+8. Las futuras fotografías serán propias, cedidas o explícitamente reutilizables.
+9. Cada fotografía futura debe tener lugar, fecha, autor y autorización/licencia registrada.
+10. No llenar la página de imágenes: cada imagen debe justificar su existencia.
+
+## Contrato funcional
+
+- V3.1 sigue siendo la base funcional.
+- V3.1.2 no cambia pagos, membresías, roles, aliados ni operación de Lina.
+- No se incorporan funciones nuevas por estética.
+- La navegación principal permanece: El Club / Soy socio / Soy aliado / Quiero sumarme.
+- La primera pantalla prioriza propuesta y encuentro.
+- La prueba territorial aparece inmediatamente después.
+- El contenido local profundo aparece después de la propuesta, no antes.
+- Todo bloque debe poder leerse y operarse en móvil pequeño.
+
+## Primera impresión objetivo
+
+**MARCA → CLUB → ENCUENTRO → CHAÑAR → COMPARTIR → VIDA DEL CLUB**
+
+## Regla de fotografía
+
+Hasta reunir un banco propio de calidad, la fachada utiliza deliberadamente una sola fotografía local acreditada. Es preferible una imagen verdadera bien integrada a diez imágenes dudosas.
+
+## Próxima biblioteca visual
+
+Objetivo inicial: 10–15 fotografías propias/cedidas, distribuidas entre:
+- personas;
+- encuentro;
+- comercio;
+- barrio/calle;
+- plaza;
+- chacra/producción;
+- río/agua;
+- cultura;
+- deporte;
+- educación;
+- juventud;
+- emprendimiento.
+
+No entran automáticamente al sitio. Primero pasan por la ficha de procedencia y luego por una prueba de utilidad.
+
+## Criterio de entrada de cualquier cambio
+
+Un cambio visual entra solo si mejora al menos dos de estas dimensiones sin perjudicar otra:
+
+**CLARIDAD · IDENTIDAD LOCAL · CALIDEZ · CONFIANZA · ENCUENTRO · LEGIBILIDAD · VELOCIDAD**
+
+Si solo "decora", no entra.
+
+## Estado de cierre
+
+V3.1.2 queda definida como **fachada pública curada + piso funcional estable**.
+
+El siguiente trabajo legítimo no es otra versión visual: es obtener evidencia real de uso y construir material local propio con autorización.
