@@ -1,3 +1,5 @@
+const CLUB_OCARINA_VERSION="3.1.6";
+const CLUB_OCARINA_EDITION="UNIVERSO OCARINA · ESTRUCTURA + VISUAL";
 const DATA={benefits:[{id:"market",icon:"✦",name:"Market Studio",title:"10% de descuento",detail:"Hasta 10 planchas de stickers por mes.",limit:"10 planchas/mes"},{id:"rh",icon:"§",name:"Estudio Jurídico RH",title:"1 orientación jurídica",detail:"20 minutos por mes.",limit:"1 uso/mes"},{id:"kiri",icon:"◉",name:"Kiri Fotografía",title:"3 fotos profesionales",detail:"Utilizables juntas en una sesión.",limit:"3 fotos/mes"},{id:"manager",icon:"↗",name:"Ocarina Manager",title:"1 charla mensual",detail:"Individual o para equipos.",limit:"1 uso/mes"}],allies:["Market Studio","Estudio Jurídico RH","Kiri Fotografía","Ocarina Manager"]};
 const LINA_WHATSAPP="5492994021395";
 const state={uses:JSON.parse(localStorage.getItem("clubOcarinaUses")||"{}")};
