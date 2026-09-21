@@ -22,11 +22,12 @@ No se vuelve a cero salvo que exista una razón técnica o estratégica document
 
 ## Próxima fase
 1. Auditar experiencia de vecino, socio recurrente y aliado.
-2. Curar imágenes y contenidos con material local propio/licenciado.
-3. Convertir Vida del Club en contenido administrable.
-4. Construir gestión real para Lina.
-5. Implementar autenticación, base de datos y RLS.
-6. Revalidar todo antes de declarar V1 operativa.
+2. Ejecutar investigación territorial profunda y verificable de San Patricio del Chañar.
+3. Curar imágenes y contenidos con material local propio/licenciado.
+4. Convertir Vida del Club en contenido administrable.
+5. Construir gestión real para Lina.
+6. Implementar autenticación, base de datos y RLS.
+7. Revalidar todo antes de declarar V1 operativa.
 
 ## Regla de calidad
 No agregar funciones por cantidad. Cada incorporación debe mejorar simultáneamente:
